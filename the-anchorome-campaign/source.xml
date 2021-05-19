@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="source.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-The-Anchorome-Campaign/main/source.xml" />
+        </update>
+    </info>
+    
+    <element name="The Anchorome Campaign" type="Source" source="The Anchorome Campaign" id="ID_JHSB_ANC1_SOURCE_THE_ANCHOROME_CAMPAIGN">
+        <description>
+            <![CDATA[<p>In 1992, TSR released FMQ1 City of Gold, by John Nephew and Jonathan Tweet.  This combination supplement and adventure brought players north of the fabled lands of Maztica to meet the Azuposi and find the aforementioned City of Gold.  The Azuposi themselves were based on the varied Pueblo Native Americans, mixed with a bit of high fantasy.</p>
+            <p><em>This 100 page product is meant to be the spiritual successor of FMQ1.</em></p>
+            <p>What has happened to the Azuposi since it was last visited? How did they handle the Spellplague?  What has happened to all of the loose ends City of Gold left open?</p>
+            <p>Those questions are answered here, but that is by far not all. </p>
+            <p><strong>ANC1 The Anchôromé Campaign Guide</strong> is also meant to do for this “new” continent what the <strong>Sword Coast Adventurer’s Guide</strong> has done for Faerûn.  This is a complete campaign guide, with new classes, subclasses, backgrounds, magic,  magic items and monsters. There is even a short location based adventure that brings back one of the villains from FMQ1 who never got her due. Everything you need to run an entire campaign is here, along with plenty of room for growth. </p>
+            <p>Anchôromé is a full continent. While there is no way one book can cover an entire continent in detail, ANC1 sure does try.  The main focus is on the Azuposi and a new race of playable beings known as the Minnenewah.  The Minnenewah blend Indigenous American legends (altered greatly, of course) with high fantasy, creating endless new opportunities for characters and adventure. </p>
+            <p>Beyond these two races are the Metahel, a Norse-like culture who are grateful for what their Azuposi allies have taught them of the land. Then there are the inhabitants of Fort Flame who are pretty much the only influence mainland Faerûn has left on this distant land. Bolstered by their new tanarvraki dragonborn allies, the humans of Fort Flame can now hold their own against threats like the creatures of Adusgi Forest and the Poscadari elves. </p>
+            <p>There are many others, from the herb obsessed Short Folk halflings to the aarakocra of the west, who may or may not guard the last home of what remains of the aeree.  Could the Creator Race still exist in the northern mountains?  And what of the Ancient Ones and the ruins of Esh Alakar? </p>
+            <p>There are of course the Great and Mighty Spirits here too, described in detail. Though not exactly gods, they do grant those who show them respect and beseech them spells on top of invaluable advice, often in person. </p>
+            <p>The Thunderbird, White Bison and Red Wolf Unole are three examples of these spirits whom the Minnenewah mostly revere, while the Azuposi sing prayers to the Sun itself along with Masauwu the Skeleton Man and a ton of others. </p>
+            <p>Hopefully, the picture painted in this 100 page volume gives a complete representation that can rival much of what exists for players in Faerun proper. Whether Anchorome is a full campaign for you, or a brief stay, everything you need both in lore and crunch can be found here.  Enjoy!</p>
+            <p><strong>Final Note:</strong> One of the purposes for the existence of this book is that it is meant to be a catalyst for forming a whole new collaborate region of the Realms. If you purchase this book and enjoy it, and have your own ideas for expanding what has been established, please feel free to contact me at my gmail, which is at seethe75.  I would love to see Anchorome grow, it is a playground for creativity and since it has so little “official” material, there is little to no fear of contradictions.</p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">ANC1</set>
+            <set name="url">https://www.dmsguild.com/product/280341/ANC1-The-Anchorome-Campaign-Guide</set>
+            <set name="image">https://dtrpg-public-files.s3.us-east-2.amazonaws.com/images/8957/280341.png</set>
+            <set name="author" abbreviation="JHSB" url="https://www.dmsguild.com/browse.php?author=Jon%20Hild">Jon Hild, Scott Bean</set>
+            <set name="official">false</set>
+            <set name="supplement">false</set>
+            <set name="playtest">false</set>
+            <set name="third-party">true</set>
+            <set name="homebrew">false</set>
+            <set name="league">false</set>
+            <set name="release">20200118</set>
+        </setters>
+    </element>
+    
+</elements>
