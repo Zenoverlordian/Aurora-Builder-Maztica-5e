@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="dragonborn-variant.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/dragonborn-variant.xml" />
+        </update>
+    </info>
+    
+    <element name="Tanarvraki" type="Race Variant" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TANARVRAKI">
+		<supports>Dragonborn</supports>
+		<description>
+			<p>The Anchôromé dragonborn, or "Tanarvraki" as they callthemselves, are the descendants of the dragonborn that cameto Anchôromé from the lands of Abeir shortly after theSpellplague. They first arrived as slaves to the tyrannicaldragon overlords that wanted to conquer the new lands andsubjugate their native inhabitants. However, as withgenerations of dragonborn before them, they rose up inrebellion and soon allied with the fierce warriors of FortFlame, eventually overthrowing their masters and gainingtheir freedom.</p>
+            <h5>TANARVRAKI TRAITS</h5>
+            <p>As a tanarvraki dragonborn, you have all the traits of adragonborn found in the PHB with the followingreplacements due to your unique draconic ancestry.</p>
+			<p class="indent"><strong><em>Draconic Ancestry.</em></strong> Tanarvraki do not have the blood ofeither the chromatic or metallic dragons running throughthem. Rather, they display the plumed frills of the dragon ofthe Feywild known as a mirage dragon.</p>
+			<p class="indent"><strong><em>Breath Weapon.</em></strong> You replace breath weapon damage andshape with a cone of multicolored light that does psychicdamage to its target.</p>
+			<p class="indent"><strong><em>Damage Resistance.</em></strong> You have resistance to psychicdamage.</p>
+		</description>
+		<sheet alt="Tanarvraki" display="false" />
+		<rules>
+			<grant type="Grants" id="ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT" />
+			<stat name="strength" value="2" requirements="!ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT,!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT,!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_FEATURE_TANARVRAKI_BREATH" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+		</rules>
+	</element>
+
+    <element name="Breath Weapon" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_FEATURE_TANARVRAKI_BREATH">
+        <description>
+            <p>You replace breath weapon damage andshape with a cone of multicolored light that does psychicdamage to its target.</p>
+        </description>
+        <sheet>
+            <description>You replace breath weapon damage andshape with a cone of multicolored light that does psychicdamage to its target with a Wisdom save.</description>
+        </sheet>
+    </element>
+    
+</elements>

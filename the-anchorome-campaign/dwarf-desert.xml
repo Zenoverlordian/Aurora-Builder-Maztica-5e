@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="dwarf-desert.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/dwarf-desert.xml" />
+        </update>
+    </info>
+    
+    <element name="Desert Dwarf" type="Sub Race" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_DESERT_DWARF">
+        <supports>Dwarf</supports>
+        <description>
+            <p>Desert dwarves are descended from clans of shield dwarvesthat were exploring for new veins of gold ore but wereambushed by drow and trapped underneath the True World.When they emerged, they did so in the great deserts ofMaztica and despite their hardships, they managed to thrive intheir new home.</p>
+            <p class="indent">Many migrated further north, eventually reaching thesouthern deserts of Anchôromé where they have had tointeract frequently with the Dog People, the Nahopaca, theShort Ones, and Azuposi.</p>
+            <p class="indent">The desert dwarves are very similar in appearance to theshield dwarves of northern Faerun, but their skin has theappearance of being perpetually sunburned. This conditionhas no detrimental effects however, and is simply a cosmeticadaptation to their sunbaked environment.</p>
+            <h4>Desert Dwarf Traits</h4>
+            <p>Desert dwarves have all the standard dwarven traits plus thefollowing.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution increases by 1.</p>
+            <p class="indent"><strong><em>Enhanced Desert Stamina.</em></strong> You can ignore the detrimentaleffects of the first two levels of Exhaustion, but levels are stillgained and you suffer the effects of levels 1, 2 and 3 once youreach the 3rd level of Exhaustion.</p>
+            <p class="indent"><strong><em>Desert Dwarf Metabolism.</em></strong> Your body retains water betterthan most and you are able to survive on half as much wateras normal.</p>
+            <p class="indent"><strong><em>Desert Dwarf Vision.</em></strong> You lose your darkvision, but gainadvantage on all Wisdom (Perception) checks that rely onsight in bright light conditions only.</p>
+            <p class="indent"><strong><em>Extra Language.</em></strong> You can speak, read and write one otherlanguage of whatever group is closest to you geographically.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Desert Elf)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Language" name="Language, Desert Dwarf" supports="Standard" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_DESERT_DWARF_ENHANCED_DESERT_STAMINA" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_DESERT_DWARF_METABOLISM" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_DESERT_DWARF_VISION" />
+        </rules>
+    </element>
+
+    <element name="Enhanced Desert Stamina" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_DESERT_DWARF_ENHANCED_DESERT_STAMINA">
+        <description>
+            <p>You can ignore the detrimentaleffects of the first two levels of Exhaustion, but levels are stillgained and you suffer the effects of levels 1, 2 and 3 once youreach the 3rd level of Exhaustion.</p>
+        </description>
+        <sheet>
+            <description>You can ignore the detrimentaleffects of the first two levels of Exhaustion, but levels are stillgained and you suffer the effects of levels 1, 2 and 3 once youreach the 3rd level of Exhaustion.</description>
+        </sheet>
+    </element>
+
+    <element name="Desert Dwarf Metabolism" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_DESERT_DWARF_METABOLISM">
+        <description>
+            <p>Your body retains water betterthan most and you are able to survive on half as much wateras normal.</p>
+        </description>
+        <sheet>
+            <description>Your body retains water betterthan most and you are able to survive on half as much wateras normal.</description>
+        </sheet>
+    </element>
+
+    <element name="Desert Dwarf Vision" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_DESERT_DWARF_VISION">
+        <description>
+            <p>You lose your darkvision, but gainadvantage on all Wisdom (Perception) checks that rely onsight in bright light conditions only.</p>
+        </description>
+        <sheet>
+            <description>You lose your darkvision, but gainadvantage on all Wisdom (Perception) checks that rely onsight in bright light conditions only.</description>
+        </sheet>
+    </element>
+    
+</elements>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="items-gear.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/items-gear.xml" />
+        </update>
+    </info>
+
+	<!--ARMOR-->
+
+	<element name="War Shirt" type="Armor" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARMOR_WAR_SHIRT">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p>War shirts are typically ceremonial in nature,but they do offer some means of protection and warriors havebeen known to wear them proudly in the face of danger. Mostwar shirts are beautifully decorated, giving them a high cost.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">11 + Dex modifier</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_WAR_SHIRT</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="11" />
+		</rules>
+	</element>
+	<element name="Armor Proficiency (War Shirt)" type="Proficiency" source="The Anchorome Campaign" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_WAR_SHIRT">
+		<supports>Light Armor, ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+	</element>
+
+	<element name="Buckskin Armor" type="Armor" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARMOR_BUCKSKIN_ARMOR">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<description>
+			<p>Buckskin armor is essentially treatedhide armor, but it is more flexible and gives slightly lessprotection. It is categorized as light armor and is the mostcommon armor worn by Minnenewah hunters.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="11">11 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">12 + Dex modifier</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_BUCKSKIN</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="12" />
+		</rules>
+	</element>
+	<element name="Armor Proficiency (Buckskin Armor)" type="Proficiency" source="The Anchorome Campaign" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_BUCKSKIN">
+		<supports>Light Armor, ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+	</element>
+	
+	<element name="Tlingit Armor" type="Armor" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARMOR_TLINGIT_ARMOR">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>This ingenuous form of armor is carefullycrafted and includes battle helmets depicting animals orancestors, along with wooden visors, thick leather tunics, andbody armor. Often, the armor is covered with wooden slats ormore recently, copper coins. Though its protection onlyamounts to that of scale mail, it is typically the heaviest armorworn by Minnenewah warriors, and only when war isexpected.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="45">45 lb.</set>
+			<set name="armor">Medium</set>
+			<set name="slot">body</set>
+			<set name="stealth">Disadvantage</set>
+			<set name="armorClass">14 + Dex modifier (max 2)</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_TLINGIT_ARMOR</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:armor" value="14" />
+		</rules>
+	</element>
+	<element name="Armor Proficiency (Tlingit Armor)" type="Proficiency" source="The Anchorome Campaign" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_TLINGIT_ARMOR">
+		<supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+	</element>
+
+	<append id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_WAR_SHIRT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_BUCKSKIN" />
+		</rules>
+	</append>
+	<append id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_TLINGIT_ARMOR" />
+		</rules>
+	</append> 
+
+	<!--WEAPONS-->
+    
+    <element name="Jawbone Club" type="Weapon" source="The Anchorome Campaign" id="ID_JHSB_ANC1_WEAPON_JAWBONE_CLUB">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<description>
+			<p>The jawbone club is created by affixing thejawbone of an animal to a wooden shaft and sharpening theteeth. The club is used to slash, rather than bludgeon.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">3</set>
+			<set name="weight" lb="2">2 lbs.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_JAWBONE_CLUB</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Jawbone Club)" type="Proficiency" source="The Anchorome Campaign" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAWBONE_CLUB">
+        <supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+    </element>
+    
+    <element name="Tomahawk" type="Weapon" source="The Anchorome Campaign" id="ID_JHSB_ANC1_WEAPON_TOMAHAWK">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+		<description>
+			<p>The tomahawk is a particularly light handaxeoften crafted with a flint blade. It is used as a thrown weaponas often as it is in melee. There are also tomahawks thatdouble in function as a peace pipe, with the handle and rearportion of the tomahawk head serving as a pipe for smoking</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30/60</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_TOMAHAWK</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Tomahawk)" type="Proficiency" source="The Anchorome Campaign" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TOMAHAWK">
+        <supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_GROUP_AXES</supports>
+    </element>
+    
+    <element name="Tontoni Towin Mistik" type="Weapon" source="The Anchorome Campaign" id="ID_JHSB_ANC1_WEAPON_TONTONI_TOWIN_MISTIK">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_GROUP_HAMMERS</supports>
+		<description>
+			<p>This oddly shaped war club is theprimary monk weapon of the Okichitaw. It is curved at the endallowing a great among of force to be used in the striking. Itshandling takes practice and training in order to use properly</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="2">2 lbs.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_TONTONI_TOWIN_MISTIK</set>
+		</setters>
+	</element>
+    <element name="Weapon Proficiency (Tomahawk)" type="Proficiency" source="The Anchorome Campaign" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TONTONI_TOWIN_MISTIK">
+        <supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_GROUP_HAMMERS</supports>
+    </element>
+
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAWBONE_CLUB" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TOMAHAWK" />
+		</rules>
+	</append>
+
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TONTONI_TOWIN_MISTIK" />
+		</rules>
+	</append>
+
+	<!--GEAR-->
+
+	<element name="Tribal Spirit Totem" type="Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ITEM_TRIBAL_SPIRIT_TOTEM">
+		<description>
+			<p>Spirit shaman carry a small woodencarving of a spirit animal, element (such as a fire or wave), orancient hero-spirit which they use as a spell focus.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="container">Shamanistic Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+
+	<element name="Flint Knapping Tools" type="Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_TOOL_FLINT_KNAPPING_TOOLS">
+		<description>
+			<p>The role of the flint knapper is incredibly important to boththe Minnenewah and other tribes of the region, including thePoscadari elves, and to a lesser extent the other folk who livein or near the Pasocada Basin</p>
+			<p class="indent">In the absence of steel, flint is a remarkable substance thatcan be hewn to a razor sharp edge, yet still it maintainsenough structural integrity to be used in weapons of war. Inessence, a weapon whose edge is made of flint and onecreated by a talented flint knapper is as effective as a weaponof steel. The flint found in Anchôromé is stronger than flintfound elsewhere in the world, and even axe heads made ofthe material will not crack on impact if made correctly</p>
+			<p class="indent">In order to be able to craft by knapping flint, you must beproficient in Flint Knapping. In Anchôromé, flint knappingcan replace proficiency with smith's tools any time that skillis available. Otherwise, the crafting is identical to what isdescribed on page 187 of the Player's Handbook</p>
+			<p class="indent">If you are interested in the specifics of Flint Knapping as areal world skill, excellent information can be found here:https://www.warpaths2peacepipes.com/native-indian-weapons-tools/flint-knapper.htm</p>
+			<h5>FLINT KNAPPING TOOLS</h5>
+			<table>
+				<thead>
+					<tr><td>Activity</td><td class="col-10">DC</td></tr>
+				</thead>
+				<tr><td>Sharpen a dull blade</td><td>10</td></tr>
+				<tr><td>Repair a suit of armor</td><td>15</td></tr>
+				<tr><td>Sunder a nonmagical metal object</td><td>20</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Tools</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="8">8 lbs.</set>
+			<set name="type">Tool</set>
+			<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_FLINT_KNAPPING_TOOLS</set>
+		</setters>
+	</element>
+	<element name="Tool Proficiency (Flint Knapping Tools)" type="Proficiency" source="The Anchorome Campaign" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FLINT_KNAPPING_TOOLS">
+        <supports>Tool</supports>
+    </element>
+    
+</elements>

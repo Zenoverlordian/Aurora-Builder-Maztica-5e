@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="barbarian-totem.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/barbarian-totem.xml" />
+        </update>
+    </info>
+
+    <!--TOTEMIC SPIRITS-->
+    
+    <element name="Totem Spirit (Bison)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_BISON">
+		<supports>Totem Spirit</supports>
+		<description>
+			<p>While you are raging, you automatically save againstany effect that would have knocked you prone. You also gainadvantage on all effects that would stun, paralyze orincapacitate you. The spirit of the bison flowing through youwill not be stopped.</p>
+		</description>
+		<sheet>
+			<description>While you are raging, you automatically save againstany effect that would have knocked you prone. You also gainadvantage on all effects that would stun, paralyze orincapacitate you.</description>
+		</sheet>
+	</element>
+    
+    <element name="Totem Spirit (Coyote)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_COYOTE">
+		<supports>Totem Spirit</supports>
+		<description>
+			<p>While you are raging, you gain advantage on savesagainst spell effects that would affect your mind and you haveresistance to psychic damage. The wily spirit of your coyotetotem makes your mind more than a match for opponents.</p>
+		</description>
+		<sheet>
+			<description>While you are raging, you gain advantage on savesagainst spell effects that would affect your mind and you haveresistance to psychic damage.</description>
+		</sheet>
+	</element>
+    
+    <element name="Totem Spirit (Horse)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_HORSE">
+		<supports>Totem Spirit</supports>
+		<description>
+			<p>While you are raging, as long as you are not wearingheavy armor, your speed increases by 10 feet. This abilitystacks with other increases in speed, including the fastmovement ability gained by all barbarians at 5th level. Thespirit of the horse allows you to get to your enemies beforethey can get to you.</p>
+		</description>
+		<sheet>
+			<description>While you are raging, as long as you are not wearing heavy armor, your speed increases by 10 feet. This ability stacks with other increases in speed, including the fast movement ability gained by all barbarians at 5th level.</description>
+		</sheet>
+	</element>
+    
+    <element name="Totem Spirit (Raven)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_RAVEN">
+		<supports>Totem Spirit</supports>
+		<description>
+			<p>While you are raging, you gain one temporary hitpoint for every level of barbarian. This temporary hit pointsare taken from first when you are injured and disappear whenyou are finished raging. The spirit of the raven assures yoursurvival.</p>
+		</description>
+		<sheet>
+			<description>While you are raging, you gain {{level:barbarian}} temporary hitpoint. These temporary hit points are taken from first when you are injured and disappear whenyou are finished raging.</description>
+		</sheet>
+	</element>
+    
+    <element name="Totem Spirit (Tortoise)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_TORTOISE">
+		<supports>Totem Spirit</supports>
+		<description>
+			<p>While you are raging, you gain resistance topiercing and slashing damage as long as you aren't wearingheavy armor. The spirit of the tortoise keeps you safe withinthe confines of its powerful shell.</p>
+		</description>
+		<sheet>
+			<description>While you are raging, you gain resistance topiercing and slashing damage as long as you aren't wearingheavy armor.</description>
+		</sheet>
+	</element>
+
+    <!--TOTEMIC ASPECTS-->
+
+    <element name="Aspect of the Beast (Bison)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_BISON">
+		<supports>Aspect of the Beast</supports>
+		<description>
+			<p>You gain the relentlessness of a bison. If you take 10damage or less that would reduce you to 0 hit points, you arereduced to 1 hit point instead.</p>
+		</description>
+		<sheet>
+			<description>If you take 10 damage or less that would reduce you to 0 hit points, you are reduced to 1 hit point instead.</description>
+		</sheet>
+	</element>
+
+    <element name="Aspect of the Beast (Coyote)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_COYOTE">
+		<supports>Aspect of the Beast</supports>
+		<description>
+			<p>You gain the keen senses of a coyote. You haveadvantage on Wisdom (Perception) checks that rely on sightor smell.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Wisdom (Perception) checks that rely on sight or smell.</description>
+		</sheet>
+	</element>
+
+    <element name="Aspect of the Beast (Horse)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_HORSE">
+		<supports>Aspect of the Beast</supports>
+		<description>
+			<p>You gain the movement of a horse. If you take theDash action, difficult terrain does not impede your movement.</p>
+		</description>
+		<sheet>
+			<description>If you take the Dash action, difficult terrain does not impede your movement.</description>
+		</sheet>
+	</element>
+
+    <element name="Aspect of the Beast (Raven)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_RAVEN">
+		<supports>Aspect of the Beast</supports>
+		<description>
+			<p>You gain the mimicry ability of a raven. You canmimic simple sounds you have heard, such as a personwhispering, a baby crying or an animal chittering. A creaturethat hears the sound must make a successful Wisdom(Insight) check against a DC of 10 + your proficiency bonus +your Wisdom bonus to detect the imitation.</p>
+		</description>
+		<sheet>
+			<description>You can mimic simple sounds you have heard, such as a person whispering, a baby crying or an animal chittering. A creature that hears the sound must make a successful Wisdom (Insight) check against a DC of {{aspect raven:dc}} to detect the imitation.</description>
+		</sheet>
+        <rules>
+            <stat name="aspect raven:dc" value="10" />
+            <stat name="aspect raven:dc" value="proficiency" />
+            <stat name="aspect raven:dc" value="wisdom:modifier" />
+        </rules>
+	</element>
+
+    <element name="Aspect of the Beast (Tortoise)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_ASPECT_OF_THE_BEAST_TORTOISE">
+		<supports>Aspect of the Beast</supports>
+		<description>
+			<p>You gain the patience of the tortoise. When youfail a Wisdom (Insight), Wisdom (Perception), or Wisdom(Survival) check, you may reroll the check once, but you mustaccept the results of the second roll.</p>
+		</description>
+		<sheet>
+			<description>When you fail a Wisdom (Insight), Wisdom (Perception), or Wisdom(Survival) check, you may reroll the check once, but you must accept the results of the second roll.</description>
+		</sheet>
+	</element>
+
+    <!--TOTEMIC ATTUNEMENTS-->
+
+    <element name="Totemic Attunement (Bison)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_BISON">
+		<supports>Totemic Attunement</supports>
+		<description>
+			<p>While you are raging, your thunderous steps forceany creature of large size or smaller within 5 feet of you tomake a Dexterity save against DC 10 + your proficiency bonus+ your Strength bonus or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>While you are raging, your thunderous steps force any creature of large size or smaller within 5 feet of you tomake a Dexterity save against DC {{attunement bison:dc}} or be knocked prone.</description>
+		</sheet>
+        <rules>
+            <stat name="attunement bison:dc" value="10" />
+            <stat name="attunement bison:dc" value="proficiency" />
+            <stat name="attunement bison:dc" value="strength:modifier" />
+        </rules>
+	</element>
+
+    <element name="Totemic Attunement (Coyote)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_COYOTE">
+		<supports>Totemic Attunement</supports>
+		<description>
+			<p>While you are raging, you may emit a howl as abonus action forcing all creatures within 30 feet that arehostile to you to suffer disadvantage on attacks rolls on theirnext turn. An enemy is immune to this effect if it can't hearyou or if it can't be frightened.</p>
+		</description>
+		<sheet>
+			<description action="Bonus Action">While you are raging, you may emit a howl as a bonus action forcing all creatures within 30 feet that are hostile to you to suffer disadvantage on attacks rolls on their next turn. An enemy is immune to this effect if it can't hear you or if it can't be frightened.</description>
+		</sheet>
+	</element>
+
+    <element name="Totemic Attunement (Horse)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_HORSE">
+		<supports>Totemic Attunement</supports>
+		<description>
+			<p>While you are raging, if you move at least 20 feetstraight towards a creature and hit it with a melee attack, thattarget is also knocked prone. If the target is prone, you makemake another attack against it as a bonus action.</p>
+		</description>
+		<sheet>
+			<description action="Bonus Action">While you are raging, if you move at least 20 feetstraight towards a creature and hit it with a melee attack, that target is also knocked prone. If the target is prone, you make another attack against it as a bonus action.</description>
+		</sheet>
+	</element>
+
+    <element name="Totemic Attunement (Raven)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_RAVEN">
+		<supports>Totemic Attunement</supports>
+		<description>
+			<p>While you are raging, you are under the effects of afeather fall spell.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_FEATHER_FALL" /> 
+            </div>
+		</description>
+		<sheet>
+			<description>While you are raging, you are under the effects of a feather fall spell.</description>
+		</sheet>
+	</element>
+
+    <element name="Totemic Attunement (Tortoise)" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEMIC_ATTUNEMENT_TORTOISE">
+		<supports>Totemic Attunement</supports>
+		<description>
+			<p>While you are raging, if you hit a creature with anopportunity attack, the creature's speed becomes 0 for the restof the turn.</p>
+		</description>
+		<sheet>
+			<description>While you are raging, if you hit a creature with anopportunity attack, the creature's speed becomes 0 for the rest of the turn.</description>
+		</sheet>
+	</element>
+    
+</elements>

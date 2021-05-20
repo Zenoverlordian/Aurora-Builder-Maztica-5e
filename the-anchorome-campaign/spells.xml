@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="spells.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/spells.xml" />
+        </update>
+    </info>
+    
+    <element name="Amanensis" type="Spell" source="The Anchorome Campaign" id="ID_JHSB_ANC1_SPELL_AMANENSIS">
+        <supports>Cleric, Spirit Shaman, Sorcerer, Warlock, Occultist</supports>
+        <description>
+            <p>You tap into the collective memory of the alien spellweavers.For the duration of the spell, you can make a singleKnowledge check as if you were proficient, and you also makeit at advantage. If you already have proficiency, double theproficiency bonus.</p>
+            <p class="indent">While you are under the effects of this spell, you perceiveincessant hums, clicks, and complex rhythms just at the edgeof your senses as if some alien intelligence is trying tocommunicate with you. As long as this effect persists, yousuffer disadvantage on all Wisdom based checks.Spellweavers do not suffer this penalty.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="range">Self</set>
+            <set name="duration">1 hour per level of caster or until discharged</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+    
+    <element name="Cynosure" type="Spell" source="The Anchorome Campaign" id="ID_JHSB_ANC1_SPELL_CYNOSURE">
+        <supports>Cleric, Spirit Shaman, Sorcerer, Warlock, Occultist</supports>
+        <description>
+            <p>This spell is meant to be cast prior to the casting ofadditional teleportation magic and it lowers the chances ofmishap. You gain advantage on any roll to determine whetheryou land on target, off target, in a similar area or suffer amishap. In addition, even if you arrive off your target area, thedistance is cut down by 75% (round down), and if you sufferdamage from a mishap, the damage is halved.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">Touch</set>
+            <set name="duration">1 minute or until discharged</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Modulate" type="Spell" source="The Anchorome Campaign" id="ID_JHSB_ANC1_SPELL_MODULATE">
+        <supports>Cleric, Spirit Shaman, Sorcerer, Warlock, Occultist</supports>
+        <description>
+            <p>This spell is cast specifically by touching a magical wand.The spellcaster imbues the wand with a spell he knows andcan cast of 1st-3rd levels. For the following hour, the wandmay be used to cast that particular spell as long as it hascharges available.</p>
+            <p class="indent">Each use of the imbued spell costs two of the wandsremaining charges. The wand does not lose its originalfunctions during this time, though each wand may only beimbued with one spell through modulate at a time.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="range">Touch</set>
+            <set name="duration">1 hour</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Siphon" type="Spell" source="The Anchorome Campaign" id="ID_JHSB_ANC1_SPELL_SIPHON">
+        <supports>Cleric, Spirit Shaman, Sorcerer, Warlock, Occultist</supports>
+        <description>
+            <p>By casting this spell on a magic item that has charges, thecaster may steal the magic of the item to power his spells. Itonly works on items that have charges, whether or not theyare replenished daily.</p>
+            <p class="indent">Once cast, the caster replenishes one spell slot of any levelwhich he can cast. The cost in charges is 1 charge per level ofthe spell slot replenished. An item with no charges orinsufficient charges is unaffected by the spell.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="range">Touch</set>
+            <set name="duration">Instantaneous</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">component</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+    <element name="Spell Star" type="Spell" source="The Anchorome Campaign" id="ID_JHSB_ANC1_SPELL_SPELL_STAR">
+        <supports>Cleric, Spirit Shaman, Sorcerer, Warlock, Occultist</supports>
+        <description>
+            <p>When this spell is cast, a glowing blue and white six-pointedstar hovers just in front of the caster's head, shedding dimlight in a 30 foot radius.</p>
+            <p class="indent">The caster chooses six spells which he has on his spell listto imbue the spell star with. Once this is done, the spell starbecomes invisible, but followers the caster and can be seenwith spells such as see invisibility.</p>
+            <p class="indent">For the duration of the spell, the caster who has the spellstar is immune to the effects of the spells that have beenimbued. Each spell can only be blocked once in this manner,at which time the ability is drained from the spell star. If all sixspells are blocked, or if the duration runs out, the spell stardisappears.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">8</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">Self</set>
+            <set name="duration">1 hour</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a moonstone worth 250 gp, which the spell consumes</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    
+</elements>

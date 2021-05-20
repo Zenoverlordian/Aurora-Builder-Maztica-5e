@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="bard-koyemshi.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/bard-koyemshi.xml" />
+        </update>
+    </info>
+    
+    <element name="College of the Clown" type="Archetype" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_COLLEGE_CLOWN">
+        <supports>Bard College</supports>
+        <description>
+            <p>Koyemshi are culturally very important to the pueblos of thePasocada Basin. Sometimes, a bard who has taken thekoyemshi subclass is referred to as having taken the college ofthe clown, but rarely among native Azuposi.</p>
+            <p class="indent">As an integral part of Azuposi ceremonies, koyemshi areknown to wear elaborate ceremonial costumes and masks,but they also wear traditional Azuposi clothing.The clowns gather together in fraternities which havehierarchies of their own where standing is completely meritbased on ability, dedication and seniority. They perform duringfestivals acting the part of spirits (particularly mischievousones) where they act out fantastic acrobatics and sillybehavior.</p>
+            <p class="indent">Koyemshi also have a serious purpose in expressing thestrange whims of the unknown forces that exist within theSpirit Realm. They make the unknown understandable andsatisfy the psychological need to give human qualities to theseunknown forces.</p>
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_BONUS_PROF" />
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_EVASIVE_DANCING" />
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_BUFFOONERY" />
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_SPIRITUAL_INSPIRATION" />
+            <h5>KOYEMSHI QUIRKS</h5>
+            <p>Koyemshi are influenced by the spirits whose masks theywear. This manifests as personality quirks based on the maskworn.</p>
+            <table>
+                <thead>
+                    <tr><td>Mask</td><td>Quirk</td></tr>
+                </thead>
+                <tr><td>Tortoise</td><td>You are slow to take actions, even your speechbecomes long and drawn out.</td></tr>
+                <tr><td>Raven</td><td>You often mock and imitate those around you,to the point of becoming quite annoying</td></tr>
+                <tr><td>Coyote</td><td>You become sneaky, and like to steal bits offood from your allies, even as they eat.</td></tr>
+                <tr><td>Wolf</td><td>You like to howl whenever you are using theBuffoonery feature to accentuate yourperformance</td></tr>
+                <tr><td>Snake</td><td>You speak in an exaggerated sibilant tone,drawing out the "s" sound for far too long</td></tr>
+            </table>
+        </description>
+        <sheet display="false" alt="Koyemshi">
+            <description>As an integral part of Azuposi ceremonies, koyemshi areknown to wear elaborate ceremonial costumes and masks,but they also wear traditional Azuposi clothing.The clowns gather together in fraternities which havehierarchies of their own where standing is completely meritbased on ability, dedication and seniority. They perform duringfestivals acting the part of spirits (particularly mischievousones) where they act out fantastic acrobatics and sillybehavior.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_BONUS_PROF" level="3" />
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_EVASIVE_DANCING" level="3" />
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_BUFFOONERY" level="6" />
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_SPIRITUAL_INSPIRATION" level="14" />
+        </rules>
+    </element>
+
+    <element name="Bonus Proficiency" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_BONUS_PROF">
+        <description>
+            <p>When you join the College of the Clown at 3rd level, you gainproficiency with longbows and hide armor.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HIDE" />
+        </rules>
+    </element>
+
+    <element name="Evasive Dancing" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_EVASIVE_DANCING">
+        <description>
+            <p>At 3rd level, you may choose to remove yourself from danger.If you choose to Disengage from battle, you may also useDash as a bonus action if you take one use of your BardicInspiration.</p>
+        </description>
+        <sheet>
+            <description action="Bonus Action" usage="Bardic Inspiration">If you choose to Disengage from battle, you may also use Dash as a bonus action if you take one use of your Bardic Inspiration.</description>
+        </sheet>
+    </element>
+
+    <element name="Buffoonery" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_BUFFOONERY">
+        <description>
+            <p>At 6th level, as long as you are wearing a koyemshi mask, you may target a creature that you can see and that can see you with Tasha's hideous laughter. The duration is 1 minute while concentrating as the spell, but you may have only one target under the effect of Buffoonery at a time. If the spell ends for any reason, you may target the same creature or another.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_TASHAS_HIDEOUS_LAUGHTER" /> 
+            </div>
+        </description>
+        <sheet>
+            <description>As long as you are wearing a koyemshi mask, you may target a creature that you can see and that can see you with Tasha's hideous laughter. The duration is 1 minute while concentrating as the spell, but you may have only one target under the effect of Buffoonery at a time. If the spell ends for any reason, you may target the same creature or another.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_TASHAS_HIDEOUS_LAUGHTER" />
+        </rules>
+    </element>
+
+    <element name="Spiritual Inspiration" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_COLLEGE_CLOWN_SPIRITUAL_INSPIRATION">
+        <description>
+            <p>At 14th level, you are inspired by the spirits which youemulate. As long as you wear a koyemshi mask, you may useBardic Inspiration any time you fail a saving throw, allowingyou to pass the saving throw instead.</p>
+        </description>
+        <sheet>
+            <description usage="Bardic Inspiration">As long as you wear a koyemshi mask, you may use Bardic Inspiration any time you fail a saving throw, allowing you to pass the saving throw instead.</description>
+        </sheet>
+    </element>
+    
+</elements>

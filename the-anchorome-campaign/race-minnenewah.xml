@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="race-minnenewah.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/race-alaghi-minnenewah.xml" />
+        </update>
+    </info>
+    
+    <element name="Minnenewah" type="Race" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_MINNENEWAH">
+        <description>
+            <p><em>Similarities in appearance nonwithstanding, I am alwaysamazed at the variety of opinion, belief, cultural norms andbehavior of the Minnenewah. I too once believed them to bemonolithic but now, having met members of over a dozentribes, I realize they are just as varied as the great nations ofFaerûn. It would be unfair to speak with a trader from distantCalimshan and expect him to hold the same beliefs as apurple dragon of Cormyr, would it not?</em></p>
+            <p style="text-align:right">—Ulder Ravengard of the Flaming Fist</p>
+            <p>Men and women whose origin lies in the Spirit Realm, theMinnenewah were brought to the mortal world on the back ofthe Thunderbird and they promptly diverged into thehundreds of tribes that now inhabit or wander the Unole andbeyond.</p>
+            <p class="indent">Now bound to this world, the Minnenewah still maintainties to the Spirit Realm that gives them a drive to return andspeak with the wise spirits of their ancestors. While manydiverge in core beliefs, there are some universal truths thatgives the impression that the Minnenewah are all truly One People.</p>
+            <h4>PEOPLE OF SPIRIT AND DREAM</h4>
+            <p>Sages draw similarities between the spirit folk of Kara-Turand the Minnenewah, and in many ways they are alike.Minnenewah behave like humans, but are much moreconnected to the Outer Plains region known as the SpiritRealm.</p>
+            <p class="indent">Though separate tribes have different means of doing so,each knows of some method of either entering the SpiritRealm, visiting in it an astral form, or at the very leastcommunicating with ancestors and spirits who reside within.</p>
+            <p class="indent">Some Minnenewah eat a mystical cactus that grows in thewilds to enter the Spirit Realm in a trance. Others can simplydream their way to the Spirit Realm. The tribe of horsemenknown as the Chic'Epona actually ride horse-like beings thatcan take them to the Spirit Realm fully in person</p>
+            <h4>DIVERGENT CULTURE</h4>
+            <p>Legends hold that when the Thunderbird carried theMinnenewah upon its back to Anchôromé it became veryhungry. Knowing that the benevolent Tabladak would beangered should it dine on its charges, the Thunderbirdwarned the early Minnenewah of its impending desire.</p>
+            <p class="indent">When they arrived at Mount Dodaliv, the Minnenewahspread to the corners of the Unole and beyond to avoid theGreat Spirit. This divergence has led to many tribes and manydifferent ways of life. Though they share a common ancestry,the Minnenewah have developed mostly independently ofeach other.</p>
+            <h4>MINNENEWAH NAMES</h4>
+            <p>Minnenewah tribes have different naming conventions, but allare given a name at birth. When they reach the age ofadulthood, they sometimes take a second name that amongsome tribes is a reference to an animal spirit, or in otherssimply a reference to some great deed that the Minnenewahhas accomplished or aspect of their personality.</p>
+            <p><strong>Male Names </strong> Achachak, Akecheta, Chochokpi, Etu, Gawonii, Istaqa, Kajika, Knoton, Mahpee, Mantotohpa, Nahiossi, Paytah, Shizhe'e, Shoemowetochawcawe, Tuketu, Waban, Yanisin </p>
+            <p><strong>Female Names </strong> Altsoba, Bena, Dowanhowee, Fala, Genesee, Ituha, Kakawangwa, Kimama, Maralah, Ninovan, Odahingum, Quanah, Sitala, Tayanita, Usdi, Yatokya </p>
+            <p><strong>Adult Names </strong> Charging Bear, Coyote Chasing Deer, First to Dance, Golden Eagle, Oldbark Antelope, Screech Owl, Soaring Turkey Vulture, Worthy of Trust, Yellow Leaf</p>
+            <h4>Minnenewah Traits</h4>
+            <p>These abilities are common to all Minnenewah, regardless of tribe.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increasesby 1 and your Wisdom increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Minnenewah mature at the same rate as humans andreach adulthood in their late teens. Many are expected to takethe roles of adults at ages as low as 13 or 14.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Despite what is believed by many, not allMinnenewah are perfectly in tune with nature. They have notendency towards any particular alignment, but chaotic orblatantly evil Minnenewah are typically exiled from theirtribes.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Minnenewah are often lithe but muscular. They standanywhere from 5 feet to over 6 feet tall. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Spirit Subtype.</em></strong> Minnenewah have the spirit subtype, whichmeans they can be affected by spells that specifically targetspirits, such as protection from spirits and invisibility tospirits. Their close connection to human ancestry makes themhumanoids, however, so they are also affected by spells suchas hold person and charm person.</p>
+            <p class="indent"><strong><em>Minnenewah Wisdom.</em></strong> You gain advantage on all Wisdomsaving throws made against magic.</p>
+            <p class="indent"><strong><em>Subraces.</em></strong> Minnenewah have dozens of subraces whichthey call tribes, two of which are explored here.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> Minnenewah speak the Minnenewah tradelanguage and individual tribal languages. Those that havefrequent contact with other cultures and beings tend to pickup smatterings of words from those languages at the veryleast.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Minnenewah)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Minnenewah)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_SPIRIT_SUBTYPE" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_WISDOM" />
+            <select type="Sub Race" name="Minnenewah Subrace" supports="Minnenewah Subrace" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+        </rules>
+		<setters>
+			<set name="names" type="male">Achachak, Akecheta, Chochokpi, Etu, Gawonii, Istaqa, Kajika, Knoton, Mahpee, Mantotohpa, Nahiossi, Paytah, Shizhe'e, Shoemowetochawcawe, Tuketu, Waban, Yanisin</set>
+			<set name="names" type="female">Altsoba, Bena, Dowanhowee, Fala, Genesee, Ituha, Kakawangwa, Kimama, Maralah, Ninovan, Odahingum, Quanah, Sitala, Tayanita, Usdi, Yatokya</set>
+			<set name="names" type="child">Charging Bear, Coyote Chasing Deer, First to Dance, Golden Eagle, Oldbark Antelope, Screech Owl, Soaring Turkey Vulture, Worthy of Trust, Yellow Leaf</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+    </element>
+
+    <element name="Spirit Subtype" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_SPIRIT_SUBTYPE">
+        <description>
+            <p>Minnenewah have the spirit subtype, whichmeans they can be affected by spells that specifically targetspirits, such as protection from spirits and invisibility tospirits. Their close connection to human ancestry makes themhumanoids, however, so they are also affected by spells suchas hold person and charm person.</p>
+        </description>
+        <sheet>
+            <description>Minnenewah have the spirit subtype, whichmeans they can be affected by spells that specifically targetspirits, such as protection from spirits and invisibility tospirits. Their close connection to human ancestry makes themhumanoids, however, so they are also affected by spells suchas hold person and charm person.</description>
+        </sheet>
+    </element>
+
+    <element name="Minnenewah Wisdom" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_WISDOM">
+        <description>
+            <p>You gain advantage on all Wisdomsaving throws made against magic.</p>
+        </description>
+        <sheet>
+            <description>You gain advantage on all Wisdom saving throws made against magic.</description>
+        </sheet>
+    </element>
+
+    <element name="Chic'Epona" type="Sub Race" source="The Anchorome Campaign" id="ID_JHSB_ANC1_SUB_RACE_MINNENEWAH_CHICEPONA">
+        <supports>Minnenewah Subrace</supports>
+        <description>
+            <p>The Chic'Epona are the undisputed horse masters ofAnchôromé. They have established an alliance with the herdsof colorful horse beings known as the nic'Epona and considerthem a part of the tribe, rather than beasts of burden.</p>
+            <p class="indent">Chic'Epona almost always worship the Great Spirit Eponaand treat even normal horses as well as they would anotherMinnenewah. The Chic'Epona are constantly on guardprotecting the nic'Epona because hostile tribes attempt tosteal the nic'Epona mares. The Chic'Epona will go to the endsof Toril to rescue a mare in distress, but given the horse-beings ability to travel the planes, such quests are rarelynecessary.</p>
+            <h4>Chic'Epona Tribal Traits</h4>
+            <p>Minnenewah of the Chic'epona tribe have all Minnenewahtraits, plus the tribal traits below.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity increases by 1.</p>
+            <p class="indent"><strong><em>Natural Horsemen.</em></strong> Mounting or Dismounting a horse (orhorse-shaped creature) does not cost you half your movementrate. You also have advantage on the Dexterity check toremain mounted when an effect moves your horse against itswill while you're on it.</p>
+            <p class="indent"><strong><em>Speak with Horses.</em></strong> Through sounds and gestures, you cancommunicate simple ideas with normal horses.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_NATURAL_HORSEMEN" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_SPEAK_HORSES" />
+        </rules>
+    </element>
+    <element name="Natural Horsemen" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_NATURAL_HORSEMEN">
+        <description>
+            <p>Mounting or Dismounting a horse (orhorse-shaped creature) does not cost you half your movementrate. You also have advantage on the Dexterity check toremain mounted when an effect moves your horse against itswill while you're on it.</p>
+        </description>
+        <sheet>
+            <description>Mounting or Dismounting a horse (orhorse-shaped creature) does not cost you half your movementrate. You also have advantage on the Dexterity check toremain mounted when an effect moves your horse against itswill while you're on it.</description>
+        </sheet>
+    </element>
+    <element name="Speak with Horses" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_SPEAK_HORSES">
+        <description>
+            <p>Through sounds and gestures, you cancommunicate simple ideas with normal horses.</p>
+        </description>
+        <sheet>
+            <description>Through sounds and gestures, you cancommunicate simple ideas with normal horses.</description>
+        </sheet>
+    </element>
+
+    <element name="Haud'Aunee" type="Sub Race" source="The Anchorome Campaign" id="ID_JHSB_ANC1_SUB_RACE_MINNENEWAH_HAUDAUNEE">
+        <supports>Minnenewah Subrace</supports>
+        <description>
+            <p>The Haud'aunee are a standing tribe of Minnenewah whorevere a great being whom they believe to be a Great Spirit ofthe Spirit Realm.</p>
+            <p class="indent">This creature, which is actually an elemental of vast powerknown as a zaratan, has come to believe itself to be a power aswell and it has adopted the Haud'aunee as its people. Most ofthe Haud'aunee tribe believe it was this powerful tortoise thatbrought them to the mortal world rather than the Thunderbirdof legend.</p>
+            <p class="indent">The Haud'aunee call the zaratan Ulanawa, and emulate itstendency to remain protected and hidden, followed by burstsof great power. The creases in a Haud'aunee elder's face beginto appear more stonelike and rocky as they advance into greatage.</p>
+            <h4>Haud'Aunee Tribal Traits</h4>
+            <p>Minnenewah of the Haud'aunee tribe have all Minnenewahtraits, plus the tribal traits below.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution increases by 1.</p>
+            <p class="indent"><strong><em>Increased Longevity.</em></strong> While Haud'aunee reach maturitylike all Minnenewah, they can live to be as old as 250 years.</p>
+            <p class="indent"><strong><em>Resistance of Ulanawa.</em></strong> You know the resistance cantrip,but can only cast it on yourself, unless you have the cantripfrom another source. Wisdom is your spellcasting ability for it.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_INCREASED_LONGEVITY" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_RESISTANCE_ULANAWA" />
+        </rules>
+    </element>
+    <element name="Increased Longevity" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_INCREASED_LONGEVITY">
+        <description>
+            <p>While Haud'aunee reach maturitylike all Minnenewah, they can live to be as old as 250 years.</p>
+        </description>
+        <sheet>
+            <description>While Haud'aunee reach maturitylike all Minnenewah, they can live to be as old as 250 years.</description>
+        </sheet>
+    </element>
+    <element name="Resistance of Ulanawa" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_RESISTANCE_ULANAWA">
+        <description>
+            <p>You know the resistance cantrip,but can only cast it on yourself, unless you have the cantripfrom another source. Wisdom is your spellcasting ability for it.</p>
+        </description>
+        <sheet>
+            <description>You know the resistance cantrip,but can only cast it on yourself, unless you have the cantripfrom another source. Wisdom is your spellcasting ability for it.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_RESISTANCE" />
+        </rules>
+    </element>
+    
+</elements>

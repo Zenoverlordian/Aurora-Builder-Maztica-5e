@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="elf-poscadari.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/elf-poscadari.xml" />
+        </update>
+    </info>
+    
+    <element name="Poscadari" type="Sub Race" source="The Anchorome Campaign" id="ID_JHSB_ANC1_SUBRACE_POSCADARI">
+        <supports>Elf</supports>
+        <description>
+            <p>The Poscadari elves are bronze skinned subrace of elves thatcame from the distant, snow covered north following a wiseand powerful shaman named Wanahton. Occasionally, in thecorrect light, a light blue tinge can be seen in their skin tone;an adaptive leftover from their past days as a people of thesnowy tundra.</p>
+            <p class="indent">The different Poscadari tribes don't maintain differentphysical abilities like the Minnenewah, however they mostcertainly have different outlooks, particularly on foreigners.Some are cruel and violently xenophobic, while others can bewelcoming and even helpful if approached in a friendlymanner. Almost all are on good terms with the Azuposi withthe exception of the tribes from the eastern shore of Anchôromé.</p>
+            <h4>Poscadari Traits</h4>
+            <p>Poscadari elves have all the standard elven traits plus thefollowing.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity increases by 1.</p>
+            <p class="indent"><strong><em>Elf Weapon Training.</em></strong> You have proficiency with theshortbow, longbow and tomahawk.</p>
+            <p class="indent"><strong><em>Survivalist.</em></strong> You gain advantage on all Wisdom (Survival)checks made when in a natural environment.</p>
+            <p class="indent"><strong><em>Plains Camouflage.</em></strong> You may attempt to hide even when only lightly covered by foliage, heavy rain, falling snow, mist and other natural phenomena when in a plains environment.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Poscadari)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_POSCADARI_SURVIVALIST" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_POSCADARI_PLAINS_CAMOUFLAGE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TOMAHAWK" />
+        </rules>
+    </element>
+
+    <element name="Survivalist" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_POSCADARI_SURVIVALIST">
+        <description>
+            <p>You gain advantage on all Wisdom (Survival)checks made when in a natural environment.</p>
+        </description>
+        <sheet>
+            <description>You gain advantage on all Wisdom (Survival)checks made when in a natural environment.</description>
+        </sheet>
+    </element>
+
+    <element name="Plains Camouflage" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_POSCADARI_PLAINS_CAMOUFLAGE">
+        <description>
+            <p>You may attempt to hide even when only lightly covered by foliage, heavy rain, falling snow, mist and other natural phenomena when in a plains environment.</p>
+        </description>
+        <sheet>
+            <description>You may attempt to hide even when only lightly covered by foliage, heavy rain, falling snow, mist and other natural phenomena when in a plains environment.</description>
+        </sheet>
+    </element>
+    
+</elements>

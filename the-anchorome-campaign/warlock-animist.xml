@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="warlock-animist.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/warlock-animist.xml" />
+        </update>
+    </info>
+    
+    <element name="The Animist" type="Archetype" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_WARLOCK_ANIMIST">
+        <supports>Otherworldly Patron</supports>
+        <description>
+            <p>Your patron is the divine spark that inhabits all things; fromthe lowliest grain of sand, to the great winds of the north. It isdifficult to know the will of your patron, but often you can readits desires in the natural world around you. You see omensand portents in all things.</p>
+            <h5>EXPANDED SPELL LIST</h5>
+            <p class="indent">Animists can choose from an expanded spell list when theylearn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+            <table>
+                <thead>
+                    <tr><td>Spell Level</td><td>Spells</td></tr>
+                </thead>
+                <tr><td>1st</td><td><i>detect magic, shield</i></td></tr>
+                <tr><td>2nd</td><td><i>blur, locate object</i></td></tr>
+                <tr><td>3rd</td><td><i>haste, phantom steed</i></td></tr>
+                <tr><td>4th</td><td><i>arcane eye, Mordenkainen's faithful hound</i></td></tr>
+                <tr><td>5th</td><td><i>contact other plane, wall of stone</i></td></tr>
+            </table>
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_AURA_OF_ONENESS" />
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_SPIRITUAL_RETALIATION" />
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_INFUSION_OF_ELEMENTS" />
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_PURE_ANIMA" />
+        </description>
+        <sheet display="false">
+            <description>Your patron is the divine spark that inhabits all things; fromthe lowliest grain of sand, to the great winds of the north.</description>
+        </sheet>
+        <spellcasting name="Warlock" extend="true">
+            <extend>ID_PHB_SPELL_DETECT_MAGIC</extend> 
+            <extend>ID_PHB_SPELL_SHIELD</extend> 
+            <extend>ID_PHB_SPELL_BLUR</extend> 
+            <extend>ID_PHB_SPELL_LOCATE_OBJECT</extend> 
+            <extend>ID_PHB_SPELL_HASTE</extend> 
+            <extend>ID_PHB_SPELL_PHANTOM_STEED</extend> 
+            <extend>ID_PHB_SPELL_ARCANE_EYE</extend> 
+            <extend>ID_PHB_SPELL_MORDENKAINENS_FAITHFUL_HOUND</extend> 
+            <extend>ID_PHB_SPELL_CONTACT_OTHER_PLANE</extend> 
+            <extend>ID_PHB_SPELL_WALL_OF_STONE</extend> 
+        </spellcasting>
+        <rules>
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_AURA_OF_ONENESS" level="1" />
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_SPIRITUAL_RETALIATION" level="6" />
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_INFUSION_OF_ELEMENTS" level="10" />
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_PURE_ANIMA" level="14" />
+        </rules>
+    </element>
+
+    <element name="Aura of Oneness" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_AURA_OF_ONENESS">
+        <description>
+            <p>Starting at 1st level, your patron bestows upon you the abilityto project an aura of calm which flows from the sense that allcreatures and things are of one unified spirit</p>
+            <p class="indent">As an action, you can cause all creatures in a 10-foot cubeoriginating from you to make a Wisdom saving throw againstyour warlock spell save DC. The creatures that fail theirsaving throws all become indifferent if they were originallyhostile for 1 minute. For all other details, consider it as if thecreatures were under the effect of a calm emotions spell</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_CALM_EMOTIONS" />
+            </div> 
+        </description>
+        <sheet>
+            <description action="Action">As an action, you can cause all creatures in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws all become indifferent if they were originally hostile for 1 minute. For all other details, consider it as if the creatures were under the effect of a calm emotions spell</description>
+        </sheet>
+    </element>
+
+    <element name="Spiritual Retaliation" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_SPIRITUAL_RETALIATION">
+        <description>
+            <p>At 6th level the spirits of the world surrounding you becomeoverprotective and become angered when you are subject toharm. When you are struck and injured in melee you may useyour reaction to allow the spirits to lash out at your attacker.This manifests as 1d6 psychic damage that automatically hits.At tenth level, this damage increases to 1d10 , at 14th level itincreases to 2d6, and at 18th level it is 3d6.</p>
+            <p class="indent">Once you use this feature, you can't use it again until youfinish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Short Rest" action="Reaction" level="6"> When you are struck and injured in melee you may use your reaction to allow the spirits to lash out at your attacker. This manifests as 1d6 psychic damage that automatically hits.</description>
+            <description usage="1/Short Rest" action="Reaction" level="10"> When you are struck and injured in melee you may use your reaction to allow the spirits to lash out at your attacker. This manifests as 1d10 psychic damage that automatically hits.</description>
+            <description usage="1/Short Rest" action="Reaction" level="14"> When you are struck and injured in melee you may use your reaction to allow the spirits to lash out at your attacker. This manifests as 2d6 psychic damage that automatically hits.</description>
+            <description usage="1/Short Rest" action="Reaction" level="18"> When you are struck and injured in melee you may use your reaction to allow the spirits to lash out at your attacker. This manifests as 3d6 psychic damage that automatically hits.</description>
+        </sheet>
+    </element>
+
+    <element name="Infusion of the Elements" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_INFUSION_OF_ELEMENTS">
+        <description>
+            <p>Beginning at 10th level, the spirits of the elemental worldaround you become defensive in nature and interested in yourwell being. They infuse you with some of their power,protecting you from the worst of their natures.</p>
+            <p class="indent">If you take any damage of an elemental nature (acid, cold,fire, lightning or thunder) on the start of your next turn yougain resistance to that particular damage type which lasts for 1 hour. You may have only one Infusion of the Elements activeat a time, as the elemental spirits refuse to work together andshare an enmity even stronger than their desire to protect you</p>
+            <p class="indent">If you take a new form of elemental damage, you gainresistance to the new damage type and lose resistance to theprevious type. Every time you are damaged by one of theseelements, the 1 hour time limit resets</p>
+        </description>
+        <sheet>
+            <description>If you take any damage of an elemental nature (acid, cold,fire, lightning or thunder) on the start of your next turn you gain resistance to that particular damage type which lasts for 1 hour. You may have only one Infusion of the Elements active at a time.
+            If you take a new form of elemental damage, you gain resistance to the new damage type and lose resistance to the previous type. Every time you are damaged by one of these elements, the 1 hour time limit resets.</description>
+        </sheet>
+    </element>
+
+    <element name="Pure Anima" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_WARLOCK_ANIMIST_PURE_ANIMA">
+        <description>
+            <p>Starting at 14th level, you may become a being of pure anima. In game terms, this means you cast the spell etherealness, but the duration is only 2 hours.</p>
+            <p class="indent">Once you use this feature, you can't use it again until youfinish a long rest</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_ETHEREALNESS" />
+            </div> 
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">You cast the spell etherealness, but the duration is only 2 hours.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_ETHEREALNESS" />
+        </rules>
+    </element>
+    
+</elements>

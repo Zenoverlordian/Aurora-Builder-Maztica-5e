@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="items-magic.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/items-magic.xml" />
+        </update>
+    </info>
+    
+    <!--TALISMANS-->
+
+    <element name="Lesser Talisman (1)" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_LESSER_TALISMAN1">
+		<description>
+			<p>Lesser talismans hold 6 "talisman points". Each day, a lesser talisman regains 1d6 of these points (up to its maximum). These talisman points can be used by a character who hasthe talismanic magic feature or has selected the feat to twistspells to suit their needs. Some of these alterations are taken from the sorcerer'smetamagic feature, but others are new. Not every talismancan use every form of metamagic and their capabilities are asunique as the talismans themselves. The classification oflesser or greater has no bearing on which metamagic featuresthe talisman gives a caster access too, thereby making itpossible to have a lesser talisman that is more versatile thanone that is greater. Depending on the wants and needs of acaster, this may make a lesser talisman more desirable.</p>
+            <h5>Talisman Usage</h5>
+            <p>A spellcaster who has the talismanic magic feature or whotakes the feat must attune to a particular talisman in order touse it. This is exactly like attuning to a magic item, but it doesnot count against that number of magic items the caster canattune to. Only one talisman may be attuned to at a time.</p>
+            <p class="indent">Some of the metamagic features available to talismans andtheir users are from the sorcerer's metamagic feature andothers are new. Each comes with a cost in talisman points,which are subtracted from the talisman's total when used.</p>
+            <p class="indent">Talismans give their attuned users access to metamagicfeatures as long as there are still talisman points available forthe day. If a talismanic magic user attempts to use ametamagic feature when there are too few or no talismanicpoints available, nothing special occurs beyond the normaleffects of the cast spell. Using a talisman to alter or enhance aspell is a bonus action and the attuned owner is always awareof how many talisman points remain in a talisman.</p>
+            <p class="indent">Note that a talisman regains talisman points each dayregardless of whether or not its attuned owner has taken along rest. Clever talismanic magic casters who own two ormore talismans use this to their advantage by switchingattunements during a long rest to a talisman with moretalisman points.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">6000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">true</set>
+			<set name="charges">6</set>
+		</setters>
+        <rules>
+            <select type="Class Feature" name="Leser Talisman (1)" supports="Metamagic" />
+            <stat name="attunement:max" value="1" />
+        </rules>
+	</element>
+
+    <element name="Lesser Talisman (2)" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_LESSER_TALISMAN2">
+		<description>
+			<p>Lesser talismans hold 6 "talisman points". Each day, a lesser talisman regains 1d6 of these points (up to its maximum). These talisman points can be used by a character who hasthe talismanic magic feature or has selected the feat to twistspells to suit their needs. Some of these alterations are taken from the sorcerer'smetamagic feature, but others are new. Not every talismancan use every form of metamagic and their capabilities are asunique as the talismans themselves. The classification oflesser or greater has no bearing on which metamagic featuresthe talisman gives a caster access too, thereby making itpossible to have a lesser talisman that is more versatile thanone that is greater. Depending on the wants and needs of acaster, this may make a lesser talisman more desirable.</p>
+            <h5>Talisman Usage</h5>
+            <p>A spellcaster who has the talismanic magic feature or whotakes the feat must attune to a particular talisman in order touse it. This is exactly like attuning to a magic item, but it doesnot count against that number of magic items the caster canattune to. Only one talisman may be attuned to at a time.</p>
+            <p class="indent">Some of the metamagic features available to talismans andtheir users are from the sorcerer's metamagic feature andothers are new. Each comes with a cost in talisman points,which are subtracted from the talisman's total when used.</p>
+            <p class="indent">Talismans give their attuned users access to metamagicfeatures as long as there are still talisman points available forthe day. If a talismanic magic user attempts to use ametamagic feature when there are too few or no talismanicpoints available, nothing special occurs beyond the normaleffects of the cast spell. Using a talisman to alter or enhance aspell is a bonus action and the attuned owner is always awareof how many talisman points remain in a talisman.</p>
+            <p class="indent">Note that a talisman regains talisman points each dayregardless of whether or not its attuned owner has taken along rest. Clever talismanic magic casters who own two ormore talismans use this to their advantage by switchingattunements during a long rest to a talisman with moretalisman points.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">12000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+			<set name="charges">6</set>
+		</setters>
+        <rules>
+            <select type="Class Feature" name="Leser Talisman (2)" supports="Metamagic" number="2" />
+            <stat name="attunement:max" value="1" />
+        </rules>
+	</element>
+
+    <element name="Lesser Talisman (3)" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_LESSER_TALISMAN3">
+		<description>
+			<p>Lesser talismans hold 6 "talisman points". Each day, a lesser talisman regains 1d6 of these points (up to its maximum). These talisman points can be used by a character who hasthe talismanic magic feature or has selected the feat to twistspells to suit their needs. Some of these alterations are taken from the sorcerer'smetamagic feature, but others are new. Not every talismancan use every form of metamagic and their capabilities are asunique as the talismans themselves. The classification oflesser or greater has no bearing on which metamagic featuresthe talisman gives a caster access too, thereby making itpossible to have a lesser talisman that is more versatile thanone that is greater. Depending on the wants and needs of acaster, this may make a lesser talisman more desirable.</p>
+            <h5>Talisman Usage</h5>
+            <p>A spellcaster who has the talismanic magic feature or whotakes the feat must attune to a particular talisman in order touse it. This is exactly like attuning to a magic item, but it doesnot count against that number of magic items the caster canattune to. Only one talisman may be attuned to at a time.</p>
+            <p class="indent">Some of the metamagic features available to talismans andtheir users are from the sorcerer's metamagic feature andothers are new. Each comes with a cost in talisman points,which are subtracted from the talisman's total when used.</p>
+            <p class="indent">Talismans give their attuned users access to metamagicfeatures as long as there are still talisman points available forthe day. If a talismanic magic user attempts to use ametamagic feature when there are too few or no talismanicpoints available, nothing special occurs beyond the normaleffects of the cast spell. Using a talisman to alter or enhance aspell is a bonus action and the attuned owner is always awareof how many talisman points remain in a talisman.</p>
+            <p class="indent">Note that a talisman regains talisman points each dayregardless of whether or not its attuned owner has taken along rest. Clever talismanic magic casters who own two ormore talismans use this to their advantage by switchingattunements during a long rest to a talisman with moretalisman points.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">18000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+			<set name="charges">6</set>
+		</setters>
+        <rules>
+            <select type="Class Feature" name="Leser Talisman (3)" supports="Metamagic" number="3" />
+            <stat name="attunement:max" value="1" />
+        </rules>
+	</element>
+
+    <element name="Greater Talisman (1)" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_GREATER_TALISMAN1">
+		<description>
+			<p>Greater talismans hold 10 "talisman points". Each day, a greater talisman regains 1d10 of these points (up to its maximum). These talisman points can be used by a character who hasthe talismanic magic feature or has selected the feat to twistspells to suit their needs. Some of these alterations are taken from the sorcerer'smetamagic feature, but others are new. Not every talismancan use every form of metamagic and their capabilities are asunique as the talismans themselves. The classification oflesser or greater has no bearing on which metamagic featuresthe talisman gives a caster access too, thereby making itpossible to have a lesser talisman that is more versatile thanone that is greater. Depending on the wants and needs of acaster, this may make a lesser talisman more desirable.</p>
+            <h5>Talisman Usage</h5>
+            <p>A spellcaster who has the talismanic magic feature or whotakes the feat must attune to a particular talisman in order touse it. This is exactly like attuning to a magic item, but it doesnot count against that number of magic items the caster canattune to. Only one talisman may be attuned to at a time.</p>
+            <p class="indent">Some of the metamagic features available to talismans andtheir users are from the sorcerer's metamagic feature andothers are new. Each comes with a cost in talisman points,which are subtracted from the talisman's total when used.</p>
+            <p class="indent">Talismans give their attuned users access to metamagicfeatures as long as there are still talisman points available forthe day. If a talismanic magic user attempts to use ametamagic feature when there are too few or no talismanicpoints available, nothing special occurs beyond the normaleffects of the cast spell. Using a talisman to alter or enhance aspell is a bonus action and the attuned owner is always awareof how many talisman points remain in a talisman.</p>
+            <p class="indent">Note that a talisman regains talisman points each dayregardless of whether or not its attuned owner has taken along rest. Clever talismanic magic casters who own two ormore talismans use this to their advantage by switchingattunements during a long rest to a talisman with moretalisman points.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">10000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+			<set name="charges">10</set>
+		</setters>
+        <rules>
+            <select type="Class Feature" name="Greater Talisman (1)" supports="Metamagic" number="1" />
+            <stat name="attunement:max" value="1" />
+        </rules>
+	</element>
+
+    <element name="Greater Talisman (2)" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_GREATER_TALISMAN2">
+		<description>
+			<p>Greater talismans hold 10 "talisman points". Each day, a greater talisman regains 1d10 of these points (up to its maximum). These talisman points can be used by a character who hasthe talismanic magic feature or has selected the feat to twistspells to suit their needs. Some of these alterations are taken from the sorcerer'smetamagic feature, but others are new. Not every talismancan use every form of metamagic and their capabilities are asunique as the talismans themselves. The classification oflesser or greater has no bearing on which metamagic featuresthe talisman gives a caster access too, thereby making itpossible to have a lesser talisman that is more versatile thanone that is greater. Depending on the wants and needs of acaster, this may make a lesser talisman more desirable.</p>
+            <h5>Talisman Usage</h5>
+            <p>A spellcaster who has the talismanic magic feature or whotakes the feat must attune to a particular talisman in order touse it. This is exactly like attuning to a magic item, but it doesnot count against that number of magic items the caster canattune to. Only one talisman may be attuned to at a time.</p>
+            <p class="indent">Some of the metamagic features available to talismans andtheir users are from the sorcerer's metamagic feature andothers are new. Each comes with a cost in talisman points,which are subtracted from the talisman's total when used.</p>
+            <p class="indent">Talismans give their attuned users access to metamagicfeatures as long as there are still talisman points available forthe day. If a talismanic magic user attempts to use ametamagic feature when there are too few or no talismanicpoints available, nothing special occurs beyond the normaleffects of the cast spell. Using a talisman to alter or enhance aspell is a bonus action and the attuned owner is always awareof how many talisman points remain in a talisman.</p>
+            <p class="indent">Note that a talisman regains talisman points each dayregardless of whether or not its attuned owner has taken along rest. Clever talismanic magic casters who own two ormore talismans use this to their advantage by switchingattunements during a long rest to a talisman with moretalisman points.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">20000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+			<set name="charges">10</set>
+		</setters>
+        <rules>
+            <select type="Class Feature" name="Greater Talisman (2)" supports="Metamagic" number="2" />
+            <stat name="attunement:max" value="1" />
+        </rules>
+	</element>
+
+    <element name="Greater Talisman (3)" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_GREATER_TALISMAN3">
+		<description>
+			<p>Greater talismans hold 10 "talisman points". Each day, a greater talisman regains 1d10 of these points (up to its maximum). These talisman points can be used by a character who hasthe talismanic magic feature or has selected the feat to twistspells to suit their needs. Some of these alterations are taken from the sorcerer'smetamagic feature, but others are new. Not every talismancan use every form of metamagic and their capabilities are asunique as the talismans themselves. The classification oflesser or greater has no bearing on which metamagic featuresthe talisman gives a caster access too, thereby making itpossible to have a lesser talisman that is more versatile thanone that is greater. Depending on the wants and needs of acaster, this may make a lesser talisman more desirable.</p>
+            <h5>Talisman Usage</h5>
+            <p>A spellcaster who has the talismanic magic feature or whotakes the feat must attune to a particular talisman in order touse it. This is exactly like attuning to a magic item, but it doesnot count against that number of magic items the caster canattune to. Only one talisman may be attuned to at a time.</p>
+            <p class="indent">Some of the metamagic features available to talismans andtheir users are from the sorcerer's metamagic feature andothers are new. Each comes with a cost in talisman points,which are subtracted from the talisman's total when used.</p>
+            <p class="indent">Talismans give their attuned users access to metamagicfeatures as long as there are still talisman points available forthe day. If a talismanic magic user attempts to use ametamagic feature when there are too few or no talismanicpoints available, nothing special occurs beyond the normaleffects of the cast spell. Using a talisman to alter or enhance aspell is a bonus action and the attuned owner is always awareof how many talisman points remain in a talisman.</p>
+            <p class="indent">Note that a talisman regains talisman points each dayregardless of whether or not its attuned owner has taken along rest. Clever talismanic magic casters who own two ormore talismans use this to their advantage by switchingattunements during a long rest to a talisman with moretalisman points.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">30000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+			<set name="charges">10</set>
+		</setters>
+        <rules>
+            <select type="Class Feature" name="Greater Talisman (3)" supports="Metamagic" number="3" />
+            <stat name="attunement:max" value="1" />
+        </rules>
+	</element>
+
+    <element name="Substitute Energy Spell" type="Class Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_CLASS_FEATURE_SORCERER_METAMAGIC_SUBSTITUTE_ENERGY_SPELL">
+		<supports>Metamagic</supports>
+		<description>
+			<p>When you cast a spell that causes acid, cold, fire, lightning orthunder damage, you can replace the damage type with acid,cold, fire, lightning or thunder damage instead. The alteredspell uses a spell slot of the spell’s normal level.</p>
+            <p class="indent">The altered spell works normally in all respects except thetype of damage dealt and appearance. A fireball, for example,becomes a ball of penetrating sound if the caster chooses touse this feature and cast a thunderball</p>
+		</description>
+		<sheet>
+			<description>When you cast a spell that causes acid, cold, fire, lightning orthunder damage, you can replace the damage type with acid,cold, fire, lightning or thunder damage instead. The alteredspell uses a spell slot of the spell’s normal level.</description>
+		</sheet>
+	</element>
+    <element name="Copycat Spell" type="Class Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_CLASS_FEATURE_SORCERER_METAMAGIC_COPYCAT_SPELL">
+		<supports>Metamagic</supports>
+		<description>
+			<p>If you observe a spell which is not on your list of castablespells, you may cast the spell on your next turn if you have aspell slot available for the spell's level. The cost in TalismanicMagic points is 1 per level of the spell which you are copying</p>
+            <p class="indent">For example, if you see a wizard cast the invisibility spelland you do not have it on your spell list, you may use 2Talismanic Magic points to copy the spell on your next turn.</p>
+		</description>
+		<sheet>
+			<description>If you observe a spell which is not on your list of castablespells, you may cast the spell on your next turn if you have aspell slot available for the spell's level. The cost in Talismanic Magic points is 1 per level of the spell which you are copying.</description>
+		</sheet>
+	</element>
+    <element name="Penetrating Spell" type="Class Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_CLASS_FEATURE_SORCERER_METAMAGIC_PENETRATING_SPELL">
+		<supports>Metamagic</supports>
+		<description>
+			<p>If you use the Penetrating Spell metamagic feature whencasting a spell that causes damage, the spell will ignoreresistance and cause a creature that is immune to suffer halfdamage instead on a failed saving throw and none on asuccessful saving throw.</p>
+            <p class="indent">For example, if you use a penetrating burning hands spellon an imp, the imp would have to make a saving throw or takehalf damage instead of none. A banshee, which has resistanceto fire, would take full damage if it failed its save</p>
+		</description>
+		<sheet>
+			<description>If you use the Penetrating Spell metamagic feature whencasting a spell that causes damage, the spell will ignoreresistance and cause a creature that is immune to suffer halfdamage instead on a failed saving throw and none on asuccessful saving throw.</description>
+		</sheet>
+	</element>
+    <element name="Shared Spell" type="Class Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_CLASS_FEATURE_SORCERER_METAMAGIC_SHARED_SPELL">
+		<supports>Metamagic</supports>
+		<description>
+			<p>If use the Shared Spell metamagic feature while casting aspell in which you target yourself, you may also target acreature within 5 feet of you that you can touch. The sharedspell must be an exact duplicate of the original in every way.</p>
+            <p class="indent">If you for example, cast protection from energy on yourselfand choose resistance to acid, you may choose anothercreature within 5 feet that you can touch to also benefit fromresistance to acid. You cannot, however, choose resistance toacid for yourself and resistance to fire for the creature.</p>
+		</description>
+		<sheet>
+			<description>If use the Shared Spell metamagic feature while casting aspell in which you target yourself, you may also target acreature within 5 feet of you that you can touch. The sharedspell must be an exact duplicate of the original in every way.</description>
+		</sheet>
+	</element>
+
+    <element name="Talismanic Magic" type="Feat" source="The Anchorome Campaign" id="ID_JHSB_ANC1_FEAT_TALISMANIC_MAGIC">
+        <requirements>[type:spell]</requirements>
+        <p><em>Prerequisite: The ability to cast a spell</em></p>
+        <description>
+            <p>You have learned to use magical talismans to alter andaugment your spells in a limited manner and dependent onthe strength and function of a magical talisman you own.</p>
+            <p class="indent">You gain the ability to attune to a single talisman whichmust be done during a long rest. If you have multipletalismans, you may attune to a new one during your next longrest.</p>
+        </description>
+        <sheet>
+            <description>You gain the ability to attune to a single talisman whichmust be done during a long rest. If you have multipletalismans, you may attune to a new one during your next longrest.</description>
+        </sheet>
+    </element>
+
+    <!--SCALPING-->
+
+    <element name="Scalping" type="Feat" source="The Anchorome Campaign" id="ID_JHSB_ANC1_FEAT_SCALPING">
+        <prerequisite>Any Evil Alignment</prerequisite>
+        <description>
+            <p><em>Prerequisite: Any Evil Alignment</em></p>
+            <p>After you kill a creature you may attempt to scalp it and stealits soul within one turn of its death. The body must be within5 feet of you, it must be smaller than one size greater thanyour own, you must spend an action, and you must have aslashing weapon in hand.</p>
+            <p class="indent">When you decide to scalp the defeated creature, youremove the top portion of its head and force the soul to occupythe gruesome trophy. The creature can not be raised from thedead unless the scalp is destroyed or the one attempting toraise the creature holds the scalp in their possession.</p>
+            <p class="indent">You may not scalp a body that you simply find dead and thedark spirits who grant you this power insist that you haveparticipated in at least some part (having caused 1 or morepoints of damage) in the death of the creature.</p>
+        </description>
+        <sheet>
+            <description>After you kill a creature you may attempt to scalp it and stealits soul within one turn of its death. The body must be within5 feet of you, it must be smaller than one size greater thanyour own, you must spend an action, and you must have aslashing weapon in hand.
+            When you decide to scalp the defeated creature, youremove the top portion of its head and force the soul to occupythe gruesome trophy. The creature can not be raised from thedead unless the scalp is destroyed or the one attempting toraise the creature holds the scalp in their possession.
+            You may not scalp a body that you simply find dead and thedark spirits who grant you this power insist that you haveparticipated in at least some part (having caused 1 or morepoints of damage) in the death of the creature.</description>
+        </sheet>
+    </element>
+
+    <!--BONNETS-->
+
+    <element name="Horn Bonnet" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_HORN_BONNET">
+        <description>
+            <p>This bonnet is made from the scalp of a bison and it isdecorated with both feathers and quills. Similar to gauntletsof ogre power, the bonnet can give you a Strength score of 19 (or have no effect, if your Strength is already 19 or higher). However, the bonnet only works for up to one hour per day, while it is worn.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">head</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+        </setters>
+    </element>
+
+    <element name="War Bonnet" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_WAR_BONNET">
+        <description>
+            <p>This magnificent headdress is a head band of feathers and ithas two long trailers of eagle feathers to the left and rightside. The bonnet gives its bearer keen hearing and visionwhen worn. The wearer gains advantage on Wisdom(Perception) checks that rely on hearing or smell.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="1">1 lb.</set>
+            <set name="slot">head</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+
+    <!--OTHER ITEMS-->
+    
+	<element name="Arrow of the Great Pine" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_ARROW_GREAT_PINE">
+		<description>
+			<p>These arrows are one of the two items made and used byOglala (with the other being bracers of archery), perhaps thegreatest archer of all time among the Minnenewah.</p>
+			<p class="indent">Oglala slew a massive giant, perhaps even the mate of thegiant of Junacolla with a number of these arrows, though hewas in turn slain by the very Thunderbird itself. Oglala grewfar too bold and thought himself powerful enough to hunt theGreat Spirit.</p>
+			<p class="indent">Arrows of the great pine look like normal arrows, thoughthey are mildly flexible and holding one can cause hands tobecome sticky with sap. Once fired from a bow, the arrowsturn into a fully formed pine tree during mid flight whichcause 4d10 piercing damage on a successful hit.</p>
+			<p class="indent">The arrows are found in bundles of 2d4 and once fired, theyremain in tree form and lose their magic.</p>
+		</description>
+		<setters>
+			<set name="keywords">arrow</set>
+			<set name="category">Ammunition</set>
+			<set name="type" addition="arrow">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+    <element name="Calling Stone of the Beast Spirits" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_CALLING_STONE_BEAST_SPIRITS">
+		<description>
+            <p>These are magical stones that summon animals to do thebidding of the possessor. The stones form naturally and aregenerally shaped in the crude likeness of an animal of CR 2 orless. They are blessed by the spirits of the animals becausethey approved of the shape they have taken and they onlysummon animals of their particular likeness.</p>
+            <p class="indent">Using an action, the possessor can summon 3d4+3 animalswho may be commanded to attack or perform some otheraction of which they are capable. The animals remain for 1hour or until they drop to 0 hit points at which point theydisappear back to the Spirit Realm. Once you use the stone, itcan't be used again until 10 days have passed.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+    <element name="Dreamcatcher" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_DREAMCATCHER">
+		<description>
+            <p>While sleeping within 5 feet of this enchanted dreamcatcher, the sleeper is blessed with a good, restful night’s sleep. Whilesleeping near the dreamcatcher, the creature is immune to dream-affecting spells, such as the dream spell. In addition, itcannot be subjected to effects that would affect its dreams,such as a night hag’s Nightmare Haunting ability or similareffects.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+    <element name="Greater Dreamcatcher" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_GREATER_DREAMCATCHER">
+		<description>
+            <p>While sleeping within 5 feet of this enchanted dreamcatcher, the sleeper is blessed with a good, restful night’s sleep. Whilesleeping near the dreamcatcher, the creature is immune to dream-affecting spells, such as the dream spell. In addition, itcannot be subjected to effects that would affect its dreams,such as a night hag’s Nightmare Haunting ability or similareffects.</p>
+            <p class="indent">Additionally, this dreamcatcher also grants 5 temporary hit points to a single user who spendsa long rest with the dreamcatcher within 5 feet. This usermust attune to the greater dreamcatcher, but the temporaryhitpoints last until their next long rest or until the hit pointsare used up.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+            <set name="attunement">true</set>
+		</setters>
+	</element>
+
+    <element name="Lance of the Horse Warrior" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_LANCE_HORSE_WARRIOR">
+		<description>
+			<p>These lances are somewhat common among the Chic'Epona tribe and others who make frequent use of horses. Theyfunction as a +1 weapon, but any who are struck must alsomake a DC 13 Wisdom save or be struck by a fear spell with aduration of 1 minute.</p>
+			<p class="indent">You can break the curse in the usual ways. Alternatively, casting banishment on the sword forces the vengeful spirit to leave it. The sword then becomes a +1 weapon with no other properties.</p>
+		</description>
+		<setters>
+			<set name="keywords">lance</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any lance">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_LANCE</set>
+			<set name="name-format">{{parent}} of the Horse Warrior</set>
+		</setters>
+	</element>
+
+    <element name="Lance of the Horse Warrior +2" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_LANCE_HORSE_WARRIOR2">
+		<description>
+			<p>These lances are somewhat common among the Chic'Epona tribe and others who make frequent use of horses. Theyfunction as a +1 weapon, but any who are struck must alsomake a DC 13 Wisdom save or be struck by a fear spell with aduration of 1 minute.</p>
+			<p class="indent">You can break the curse in the usual ways. Alternatively, casting banishment on the sword forces the vengeful spirit to leave it. The sword then becomes a +1 weapon with no other properties.</p>
+		</description>
+		<setters>
+			<set name="keywords">lance</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any lance">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_LANCE</set>
+			<set name="name-format">{{parent}} of the Horse Warrior +2</set>
+		</setters>
+	</element>
+
+    <element name="Lance of the Horse Warrior +3" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_LANCE_HORSE_WARRIOR3">
+		<description>
+			<p>These lances are somewhat common among the Chic'Epona tribe and others who make frequent use of horses. Theyfunction as a +1 weapon, but any who are struck must alsomake a DC 13 Wisdom save or be struck by a fear spell with aduration of 1 minute.</p>
+			<p class="indent">You can break the curse in the usual ways. Alternatively, casting banishment on the sword forces the vengeful spirit to leave it. The sword then becomes a +1 weapon with no other properties.</p>
+		</description>
+		<setters>
+			<set name="keywords">lance</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any lance">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_LANCE</set>
+			<set name="name-format">{{parent}} of the Horse Warrior +3</set>
+		</setters>
+	</element>
+    
+	<element name="Medallion of Medicine Fire" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_MEDALLION_MEDICINE_FIRE">
+		<description>
+			<p>This medallion is constructed of feathers and beads and issculpted into the shape of flames. Typically made by spiritshaman, its owner has access to a number of powers invokingflames brought about by elemental spirits of fire. Themedallion grants the following powers:</p>
+            <ul>
+                <li>Resistance to fire</li>
+                <li>Cast burning hands twice each day, save DC 16</li>
+                <li>Cast fire shield once each day (warm shield only)</li>
+                <li>Cast flame strike once each day, save DC 16</li>
+            </ul>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+            <grant type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" /> 
+            <grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" />
+            <grant type="Spell" id="ID_PHB_SPELL_FLAME_STRIKE" />
+        </rules>
+	</element>
+
+    <element name="Orb of Trailblazing" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_ORB_TRAILBLAZING">
+		<description>
+            <p>This fist sized, copper orb is dotted with tiny flakes of obsidianand appears to have constant movement just underneath itsshiny surface. The cardinal directions are carved into thesphere.</p>
+            <p class="indent">When you throw the orb it turns into 500 tiny, copperinsects like locusts, ants and beetles who eat vegetation at avoracious pace. In terrain that is deemed difficult due toovergrowth (such as forests and jungles) the insects make a 5foot wide path, negating the difficult terrain.</p>
+            <p class="indent">The insects travel at your pace for 10 hours before revertingback to orb form. The insects have no affect on livingcreatures other than normal plants and the orb can beactivated once per ten days.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+
+    <element name="Snake Belt" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_SNAKE_BELT">
+		<description>
+            <p>This belt is make of snakeskins and has a tiny rattle that can easily be silenced by tucking it under the belt loop.</p>
+            <p class="indent">Once between long and short rests the snake belt allowsyou to cast polymorph on yourself only, and only in the form ofa giant rattlesnake (Giant Poisonous Snake from the MonsterManual page 327).</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">waist</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+    <element name="Sunbow" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_SUNBOW">
+		<description>
+			<p>This bow has three charges, which it recharges every day atdawn. You can expend a charge as part of an attack to light upa fired arrow with a blinding shine. If the attack hits acreature, you deal an additional 1d10 radiant damage to it andthe creature must succeed on a DC 13 Constitution savingthrow or become blinded until the beginning of your next turn.</p>
+		</description>
+		<setters>
+			<set name="keywords">bow</set>
+			<set name="charges">3</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any lance">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_BOWS</set>
+            <set name="attunement">true</set>
+			<set name="name-format">Sun{{parent}}</set>
+		</setters>
+	</element>
+
+    <element name="Teepee of Sanctuary" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_TEEPEE_SANCTUARY">
+		<description>
+            <p>What begins as a bundle of sticks wrapped in animal hide(weighing 1 pound) can be thrown to the ground as an actionwhile repeating a command word. The bundle instantlyunfolds and grows to the size of a fully formed teepee with a15 foot radius.</p>
+            <p class="indent">The teepee is larger on the inside than it is on the outside,behaving exactly as if the user had cast Mordenkainen'smagnificent mansion. The structure lasts 24 hours or until theowner once again speaks the command word. Either way, theteepee of sanctuary can only be used once every 10 days.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_MORDENKAINENS_MAGNIFICENT_MANSION" />
+            </div>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+
+    <element name="Wigwam of Sanctuary" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_WIGWAM_SANCTUARY">
+		<description>
+            <p>What begins as a bundle of sticks wrapped in animal hide(weighing 1 pound) can be thrown to the ground as an actionwhile repeating a command word. The bundle instantlyunfolds and grows to the size of a fully formed wigwam with a15 foot radius.</p>
+            <p class="indent">The wigwam is larger on the inside than it is on the outside,behaving exactly as if the user had cast Mordenkainen's magnificent mansion. The structure lasts 24 hours or until theowner once again speaks the command word. Either way, the wigwam of sanctuary can only be used once every 10 days.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_MORDENKAINENS_MAGNIFICENT_MANSION" />
+            </div>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+    
+	<element name="War Shirt of the Minnenewah" type="Magic Item" source="The Anchorome Campaign" id="ID_JHSB_ANC1_MAGIC_ITEM_WAR_SHIRT_MINNENEWAH">
+		<description>
+			<p>This war shirt gives protection equivalent to leather armor but the wearer is also immune to fear effects and cannot be frightened.</p>
+		</description>
+		<setters>
+			<set name="keywords">leather</set>
+			<set name="category">Magic Armor</set>
+			<set name="slot">body</set>
+			<set name="type" addition="leather">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">Leather</set>
+		</setters>
+	</element>
+    
+</elements>

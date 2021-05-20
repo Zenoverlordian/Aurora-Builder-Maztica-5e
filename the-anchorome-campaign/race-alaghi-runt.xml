@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="race-alaghi-runt.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/race-alaghi-runt.xml" />
+        </update>
+    </info>
+    
+    <element name="Alaghi Runt" type="Race" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_ALAGHI_RUNT">
+        <description>
+            <p><em>Though tinier than her more feral brethren, Agracca still stood a half foot taller than me. I must admit I was quite frightened of her powerful build and I knew she could crush my windpipe with but a swipe of her powerful arms. She putme at ease almost immediately with her gentle nature and smoothly calming voice - something quite unexpected for one that looked so wild.</em></p>
+            <p style="text-align:right">—Achcauhtli the Traveler</p>
+            <p>At once untamed and at peace with their natural surroundings, the alaghi are an enigma in the continent of Anchôromé. While many are hermits, communities are also formed where sometimes a runt alaghi is birthed. Typically afoot smaller than their brethren, but still larger than the average human, these runts are the most likely to leave their communities and explore lands unknown.</p>
+            <p class="indent">Many befriend other like minded individuals, and some have even become members of the nyannan-napew of the Azuposi far to the south and west of their home in the Adusgi Forest.</p>
+            <h4>LARGE AND HAIRY</h4>
+            <p>Alaghi Runts, despite the pejorative in the name, typically stand a full head taller than the average human being. They are hairy creatures who rarely wear any clothing unless required by an adopted culture. Because of these generally abnormal features, the hairy men of the forest certainly stand out in a crowd.</p>
+            <p class="indent">For well over a hundred years now, the people ofAnchôromé have seen some amazing sights and they are notas easily shocked as the might once have been. In a landwhere there are now dragonborn, entire tribes riding brightlycolored magical horses and massive spirit creatures that arejust as likely to eat a seeker of wisdom as they would be tohelp, alaghi are not all that bizarre.</p>
+            <h4>NATURALLY ATTUNED</h4>
+            <p>Whether they be warrior or priest, trained in magic or given tofinding power in a pact with otherworldly beings, all alaghi areinherently in tune with nature and this is no different in therunts of their kind.</p>
+            <p class="indent">Many alaghi runts become druids and some are verypowerful. Alaghi are strict vegetarians and love to eat berriesand fruits. The maize and squash of the Azuposi is too lackingin sweetness for the typical alaghi runt, but they can surviveon such fare.</p>
+            <h4>FRIENDS BECOME FAMILY</h4>
+            <p>No one quite knows why the slightly smaller of the species ofalaghi tend to be the more gregarious and sociable of the race,but the phenomenon is plainly obvious. Perhaps there is acultural tendency to make smaller alaghi feel uncomfortablearound others of their kind. The signs of this ostracism are notobvious to outsiders, nor do the runts speak of it. They nevertruly consider themselves runts and shrug when confrontedwith the evidence.</p>
+            <p class="indent">As a byproduct of this self imposed exile, alaghi runts tendto consider those they adventure with to be family. They areuniversally overprotective of other individuals and are likely toput themselves in harms way in order to protect the ones theyhave adopted.</p>
+            <h4>ALAGHI RUNT NAMES</h4>
+            <p>Most alaghi runts change their birth names to fit in with theiradopted people. Often annoyingly, they will hear the name of acompanion and adopt it for themselves, causing all manner ofconfusion.</p>
+            <p class="indent">They can be convinced to use their birth names which arenot as gutteral as some may assume. Males and females donot often distinguish differences in birth naming conventions</p>
+            <p><strong>Birth Names </strong> Aboac, Agracca, Deryn, Falinn, Gergaricc, Kurdin, Lomann, Meriiy, Noapp, Nuctif, Oankk, Pochacc, Saiyinn, Therelinn, Voyann</p>
+            <h4>Alaghi Runt Traits</h4>
+            <p>Your alaghi runt character has a variety of powerful abilities.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Wisdom increases by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Alaghi runts age similarly to humans. They reachmaturity at around 16 and can live to be almost a hundred years old.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Alaghi runts tend toward true neutralalignment, and often neutral good.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Alaghi runts are bulky and broad and are often tallerthan humans, though they tend to max out at six and a halffeet in order to be considered a runt. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet</p>
+            <p class="indent"><strong><em>Powerful Build.</em></strong> You count as one size larger whendetermining your carrying capacity and the weight you canpush, drag, or lift.</p>
+            <p class="indent"><strong><em>Natural Armor.</em></strong> Alaghi runts have thick hides. When youaren’t wearing armor, your armor class is 12 + your Dexteritymodifier.</p>
+            <p class="indent"><strong><em>Slam.</em></strong> Alaghi runts are intensely strong. Your unarmedattacks deal 1d6 + your Strength modifier in bludgeoningdamage.</p>
+            <p class="indent"><strong><em>Reclusive.</em></strong> You gain proficiency in the Stealth and Natureskills.</p>
+            <p class="indent"><strong><em>Speak with Small Beasts.</em></strong> Through sounds and gestures,you can communicate simple ideas with Small or smallerbeasts.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write a local languagesuch as Common and Alaghi. Alaghi is a language of hisses,hoots, and grunts.</p>
+            <h5>ALAGHI RUNT QUIRKS</h5>
+            <p>As an alaghi runt, you might have one of the following personality quirks.</p>
+            <table>
+                <thead>
+                    <tr><td>d6</td><td>Quirk</td></tr>
+                </thead>
+                <tr><td>1</td><td>You are shy, even compared to the rest of your kind,and often avoid speaking or being seen in the presenceof those you do not trust</td></tr>
+                <tr><td>2</td><td>You have a love for riddles and games, and repeatedlychallenge those you are on good terms with to solveyour riddles or beat you at games of strategy.</td></tr>
+                <tr><td>3</td><td>You are especially in touch with nature, and muchprefer the wilderness to civilization, often strayingfrom roads or preferring to stay near the outskirts oftowns.</td></tr>
+                <tr><td>4</td><td>You are more aggressive, like your distant feralancestry, and act much more uncouth than others ofyour race, as well as having a tendency to resort toviolence.</td></tr>
+                <tr><td>5</td><td>You had an umpleby as a childhood friend and misshim terribly. You are often melancholy when thinkingof your friend and static shocks trigger thesememories.</td></tr>
+                <tr><td>6</td><td>You were shamed for your nudity in the past and nowwear more clothes than necessary.</td></tr>
+            </table>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Alaghi Runt)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Alaghi Runt)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_ALAGHI_RUNT_POWERFUL_BUILD" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_ALAGHI_RUNT_NATURAL_ARMOR" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_ALAGHI_RUNT_SLAM" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_ALAGHI_RUNT_SPEAK_SMALL_BEASTS" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <grant type="Language" id="ID_JHSB_ANC1_LANGUAGE_ALAGHI" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+        </rules>
+		<setters>
+			<set name="names" type="custom">Aboac, Agracca, Deryn, Falinn, Gergaricc, Kurdin, Lomann, Meriiy, Noapp, Nuctif, Oankk, Pochacc, Saiyinn, Therelinn, Voyann</set>
+			<set name="names-format">{{custom}}</set>
+		</setters>
+    </element>
+
+    <element name="Powerful Build" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_ALAGHI_RUNT_POWERFUL_BUILD">
+        <compendium display="false" />
+        <description>
+            <p>You count as one size larger whendetermining your carrying capacity and the weight you canpush, drag, or lift.</p>
+        </description>
+        <sheet>
+            <description>You count as one size larger whendetermining your carrying capacity and the weight you canpush, drag, or lift.</description>
+        </sheet>
+        <rules>
+            <grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+        </rules>
+    </element>
+
+    <element name="Natural Armor" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_ALAGHI_RUNT_NATURAL_ARMOR">
+        <description>
+            <p>Alaghi runts have thick hides. When you aren’t wearing armor, your armor class is 12 + your Dexterity modifier.</p>
+        </description>
+        <sheet>
+            <description>When you aren’t wearing armor, your armor class is {{ac:alaghi runt}}.</description>
+        </sheet>
+        <rules>
+            <stat name="ac:alaghi runt" value="12" />
+            <stat name="ac:alaghi runt" value="dexterity:modifier" />
+            <stat name="ac:calculation" value="ac:alaghi runt" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Alaghi Runt)" />
+        </rules>
+    </element>
+
+    <element name="Slam" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_ALAGHI_RUNT_SLAM">
+        <description>
+            <p>Alaghi runts are intensely strong. Your unarmed attacks deal 1d6 + your Strength modifier in bludgeoning damage.</p>
+        </description>
+        <sheet>
+            <description>Your unarmed attacks deal 1d6 + your Strength modifier in bludgeoning damage.</description>
+        </sheet>
+    </element>
+
+    <element name="Speak with Small Beasts" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_ALAGHI_RUNT_SPEAK_SMALL_BEASTS">
+        <description>
+            <p>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</p>
+        </description>
+        <sheet>
+            <description>Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.</description>
+        </sheet>
+    </element>
+
+    <element name="Alaghi" type="Language" source="The Anchorome Campaign" id="ID_JHSB_ANC1_LANGUAGE_ALAGHI">
+        <description>
+            <p>Alaghi is a language of hisses, hoots, and grunts.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Alaghi</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+    
+</elements>

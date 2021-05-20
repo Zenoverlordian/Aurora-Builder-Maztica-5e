@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="background-medicine-man.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/background-medicine-man.xml" />
+        </update>
+    </info>
+    
+    <element name="Medicine Man" type="Background" source="The Anchorome Campaign" id="ID_JHSB_ANC1_BACKGROUND_MEDICINE_MAN">
+        <description>
+            <p>Among the Minnenewah and Poscadari elves in particular,certain individuals are gifted with an inherent and intimateunderstanding of the spirits that surround them. From a veryyoung age, you were seen as different among your tribe, but asmuch as others feared you, they also had many hopes for theotherwordly wisdom you held</p>
+            <p class="indent">In time, perhaps the village became too stifling for you.Surrounded by spirits, you could not always endure theirwhispers and those of the living which implored you for youfor knowledge. Thus you stand apart from your peers. As yougrow older the lines between the mortal and the Spirit Realmblurs until they become almost indistinguishable from oneanother</p>
+            <ul class="unstyled">
+                <li><strong>Skill Proficiencies:</strong> Medicine, Religion </li>
+                <li><strong>Tool Proficiencies:</strong> Herbalism Kit </li>
+                <li><strong>Languages:</strong> Two of your choice </li>
+                <li><strong>Equipment:</strong> Various charms and effigies. (Nonmagical)dreamcatchers, feather charms, and small pieces of turquoiseworth 10 gp total. You also have common clothes and aherbalism kit</li>
+            </ul>
+            <div element="ID_JHSB_ANC1_BACKGROUND_FEATURE_SPIRIT_VOICES" />
+            <h5>ORIGIN</h5>
+            <p>Why is it that you have your special connection to the spirits?Why do you hear their incessant whispers and why do youknow there wants and desires where others see and hearnothing? You can roll on the following table to determinewhich origin brought you this otherworldly insight or youcould select one of your choice.</p>
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p>Medicine men are always highly regarded among their peoplebut often held at a distance. Some become hermetical andthey always somehow seem lost in the voices that incessantlywhisper to them.</p>
+        </description>
+        <setters>
+            <set name="short">Medicine, Religion, Herbalism Kit, 2 Languages</set>
+        </setters>
+        <rules>
+            <select type="Language" name="Language, Medicine Man" supports="Standard||Exotic" number="2" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+            <grant type="Background Feature" id="ID_JHSB_ANC1_BACKGROUND_FEATURE_SPIRIT_VOICES" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+            <select type="List" name="Origin" optional="true">
+                <item id="1">A spirit owes your ancestor a great debt and blessedyour family with supernatural insight that onlymanifests once every few generations</item>
+                <item id="2">A traumatic, or near death experience brought yourspirit to the attention of entities of the Spirit Realm.They have not left your side since.</item>
+                <item id="3">You were not supposed to have survived child birth,but the spirits took you as their own. You owe themfor your miraculous survival</item>
+                <item id="4">Your mother was the recipient of a blessing whileyou grew in her womb. As a child, you never criedsince the spirits kept you forever entertained</item>
+                <item id="5">You came upon a charm which housed a powerfulspirit that you freed. As a byproduct, you havebecome intertwined with the Spirit Realm</item>
+                <item id="6">You were born at a moment where the sun, moonand constellations came into an alignment that onlycomes around once every few hundred years. Thespirits took special interest in your birth.</item>
+                <item id="7">When you were a child, you put a spirit to rest thathad long suffered through an act of selflesskindness. The Spirit Realm took note and sought toreward you with supernatural sight</item>
+                <item id="8">You were born without ever having been fathered.Some say it was the spirits that brought you to yourmother</item>
+            </select>
+            <select type="List" name="Personality Trait" number="2" optional="true">
+                <item id="1">The spirits whispering constantly in my ear aredistracting and it makes me seem absent minded</item>
+                <item id="2">My words and wisdom are a valuable commodityand I don't do anything for free</item>
+                <item id="3">The spirits are my constant companions. Others seeme as a loner, but this is patently untrue</item>
+                <item id="4">I have grown used to listening and I rarely choose tospeak.</item>
+                <item id="5">I am eager to find more company among the living.I am not used to their busy ways but it interests me.</item>
+                <item id="6">I trust the opinions of the spirits and they certainlyare opinionated. So I am now as well</item>
+                <item id="7">The voices I hear, and the things they say wouldterrify others. I do not share their wisdom withoutgreat need</item>
+                <item id="8">My advice is very useful and I know it. I tend to offerit even when it is not asked for</item>
+            </select>
+            <select type="List" name="Ideal" optional="true">
+                <item id="1">Arrogance.The spirits have given me reason tobelieve that my life is worth more than thosearound me. (Evil)</item>
+                <item id="2">Protection. Those who have great gifts must usethose gifts to help and protect others. (Good)</item>
+                <item id="3">Wisdom.Knowledge is useless without the wisdomto use it correctly. (Lawful)</item>
+                <item id="4">Power. I have been given this gift for a reason andmust grow in power to fulfill my purpose. (Chaotic)</item>
+                <item id="5">Respect.The spirits see all and must be respected.(Lawful)</item>
+                <item id="6">Preparation. We are here for only a short timecompared to the whole of our existence and wemust prepare ourselves for the afterlife. (Any)</item>
+            </select>
+            <select type="List" name="Bond" optional="true">
+                <item id="1">My village is so important to me. I miss it when I amgone and long to head home</item>
+                <item id="2">I cannot understand the poor decisions othersmake and know its my obligation to right theirwrongs.</item>
+                <item id="3">The voices have been telling me what to do for mywhole life and I will no longer listen.</item>
+                <item id="4">I will bring the wants and needs of my peoplebeyond the bounds of my homeland</item>
+                <item id="5">The close relationship my people have to the SpiritRealm must be preserved.</item>
+                <item id="6">I wish to deaden the veil between the physical andSpirit Realm so I may be closer to the spirits withwhom I converse.</item>
+            </select>
+            <select type="List" name="Flaw" optional="true">
+                <item id="1">I've no concern for the living, their world is anillusion which I only temporarily am occupying.</item>
+                <item id="2">Can't...take...the...voices...anymore!</item>
+                <item id="3">I know better than others the will of the SpiritRealm so I should make all decisions.</item>
+                <item id="4">In the end, we all end up at the other side of theveil, so what is the point in avoiding death? A fewextra moments?</item>
+                <item id="5">The spirits intentionally frighten me all the time. Iam extremely jumpy and expecting to be frightenedagain terribly at any moment.</item>
+                <item id="6">I take advantage of all those who surround me, justas I do the spirits of the Spirit Realm. It is mybirthright.</item>
+            </select>
+        </rules>
+    </element>
+
+    <element name="Feature: Spirit Voices" type="Background Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_BACKGROUND_FEATURE_SPIRIT_VOICES">
+        <description>
+            <p>You hear the incessant whisperings of the spirit realm aroundyou giving you great wisdom into their needs and desires.Though you may not posit a direct question, you may comeupon insights unavailable to others as far as the Spirit Realmis concerned.</p>
+            <p class="indent">You are particularly adept at determining which actionsmight offend the spirits and thus you can prevent yourself orothers around you from making such mistakes.</p>
+        </description>
+        <sheet alt="Spirit Voices">
+            <description>You hear the incessant whisperings of the spirit realm aroundyou giving you great wisdom into their needs and desires.Though you may not posit a direct question, you may comeupon insights unavailable to others as far as the Spirit Realmis concerned
+            You are particularly adept at determining which actionsmight offend the spirits and thus you can prevent yourself orothers around you from making such mistakes</description>
+        </sheet>
+    </element>
+    
+</elements>

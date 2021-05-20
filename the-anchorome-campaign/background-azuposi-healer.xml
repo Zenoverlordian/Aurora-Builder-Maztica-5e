@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="background-azuposi-healer.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/background-azuposi-healer.xml" />
+        </update>
+    </info>
+    
+    <element name="Azuposi Healer" type="Background" source="The Anchorome Campaign" id="ID_JHSB_ANC1_BACKGROUND_AZUPOSI_HEALER">
+        <description>
+            <p>You are relied upon by your community to help mend brokenbones and draw infection from wounds. When an Azuposichild is sick, you are called upon to bring him to health andwhen a baby is being born, you are there to give commandsand guide the mother.</p>
+            <ul class="unstyled">
+                <li><strong>Skill Proficiencies:</strong> Medicine, Religion </li>
+                <li><strong>Tool Proficiencies:</strong> Herbalism Kit </li>
+                <li><strong>Languages:</strong> One of your choice</li>
+                <li><strong>Equipment:</strong> Two vials of antitoxin, a set of common clothes, ahealer's hit, a herbalism kit and a small gold nugget worth 5gp</li>
+            </ul>
+            <div element="ID_JHSB_ANC1_BACKGROUND_FEATURE_SPECIALTY_KNOWLEDGE" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p></p>
+        </description>
+        <setters>
+            <set name="short">Medicine, Religion, Herbalism Kit, 1 Language</set>
+        </setters>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+            <select type="Language" name="Language, Azuposi Healer" supports="Standard||Exotic" />
+            <grant type="Background Feature" id="ID_JHSB_ANC1_BACKGROUND_FEATURE_SPECIALTY_KNOWLEDGE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+            <select type="List" name="Speciality" optional="true">
+                <item id="1">Bruises</item>
+                <item id="2">Broken Bones</item>
+                <item id="3">Child Birth</item>
+                <item id="4">Cuts</item>
+                <item id="5">Natural Disease</item>
+                <item id="6">Infection</item>
+                <item id="7">Natural Poisons</item>
+                <item id="8">Stomach Issues</item>
+            </select>
+            <select type="List" name="Personality Trait" number="2" optional="true">
+                <item id="1">I feel so much empathy for those who ail. I oftenask those I am with how they feel.</item>
+                <item id="2">I know that all bad things pass in time and myoptimism is plainly visible on my face.</item>
+                <item id="3">I am melancholy because of those whom I couldnot save</item>
+                <item id="4">I am very inquisitive, always trying to understandhow things, particularly the living body, work</item>
+                <item id="5">I talk too often and frequently about medicaltheories I have developed through study.</item>
+                <item id="6">It is safe to say that nothing can make me queasy. Ihave seen it all</item>
+                <item id="7">I realize how important good hygiene is to goodhealth and I make sure those around me know it.</item>
+                <item id="8">I am always searching for new breakthroughs inherbalism and medicine. I will interrogate any whoclaim knowledge I might not have.</item>
+            </select>
+            <select type="List" name="Ideal" optional="true">
+                <item id="1">Knowledge.I need to know all there is to knowabout the body. (Lawful)</item>
+                <item id="2">Ego. I must be the best at my profession no matterwhat I need to do. (Evil)</item>
+                <item id="3">Sympathy.If I could, I would take all the suffering inthe world onto myself. (Good)</item>
+                <item id="4">Awe. I am don't care so much why medicine worksas it does, but it is a process that amazes me.(Chaotic)</item>
+                <item id="5">Responsibility.It has been placed upon me to do animportant job and I will be sure to do so. (Lawful)</item>
+                <item id="6">Obligation. I was given a talent by the Spirits and itwould be a great tragedy for me to waste my giftsby not helping others. (Good)</item>
+            </select>
+            <select type="List" name="Bond" optional="true">
+                <item id="1">I became a healer because I lost someone veryclose to me that I could not help.</item>
+                <item id="2">One day, I will find the cure to something which hasno cure</item>
+                <item id="3">Plain and simple, I do this for the children. I cannotstand to watch them suffer</item>
+                <item id="4">I was born with an innate understanding of the bodyand I will spread my knowledge to others across theworld.</item>
+                <item id="5">There is nothing that can't be fixed, no malady thatcannot be cured. I will prove that to all those aroundme.</item>
+                <item id="6">My family has lived in this village for manygenerations and endured much with it. I oweeverything to its people.</item>
+            </select>
+            <select type="List" name="Flaw" optional="true">
+                <item id="1">I've simply seen too much death and I am losinghope</item>
+                <item id="2">I have lost too many patients and now I refuse toget close to anyone, lest I lose them as well</item>
+                <item id="3">Sometimes I forget I work with people and thatthose people have feelings</item>
+                <item id="4">Pain is an illusion, and in pursuit of a cure I don'tmind causing it if it leads to a greater good.</item>
+                <item id="5">I am getting tired of being underappreciated andoverworked. I need to rest all the time and I can bebitter.</item>
+                <item id="6">I seek out glory and the praise of my fellow villagers.I don't care as much about my patients as I should.</item>
+            </select>
+        </rules>
+    </element>
+
+    <element name="Feature: Specialty Knowledge" type="Background Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_BACKGROUND_FEATURE_SPECIALTY_KNOWLEDGE">
+        <description>
+            <p>You are so adept at your particular specialty that you knowexactly what to do in medical emergencies. A healer whospecializes in poisons may know how to draw forth the venomof an adder. If your specialty is disease and a child is sickened,you may know the cure. If you specialize in child birth and youare present, there is little chance that a mother hascomplications.</p>
+            <p class="indent">You should work with your DM to determine the gameeffects this has, and under what circumstances.</p>
+        </description>
+        <sheet alt="Specialty Knowledge">
+            <description>You are so adept at your particular specialty that you knowexactly what to do in medical emergencies. A healer whospecializes in poisons may know how to draw forth the venomof an adder. If your specialty is disease and a child is sickened,you may know the cure. If you specialize in child birth and youare present, there is little chance that a mother hascomplications</description>
+        </sheet>
+    </element>
+    
+</elements>

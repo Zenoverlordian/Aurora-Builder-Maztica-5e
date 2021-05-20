@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="halfling-short-one.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/halfling-short-one.xml" />
+        </update>
+    </info>
+    
+    <element name="Short One" type="Sub Race" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_SHORT_ONE">
+        <supports>Halfling</supports>
+        <description>
+            <p>The Short Ones trace their ancestry back many generations tothe wild halflings of the Maztican jungles. the migratednorthward over many generations.</p>
+            <p class="indent">Over time, the Short Ones tribes spread out all overAnchôromé, but most are found to the east of the PasocadaBasin, just across the northern portions of the Sands ofItzcala and the foothills of the Sesnaajiini Mountains. If thereis light forestation, there is typically at least one tribe of ShortOnes to be found.</p>
+            <p class="indent">The Short Ones are masters of herbalism. They are capableof a level of healing that it almost magical in its complexityand their food is fabled for its strong flavors.</p>
+            <h4>Short One Traits</h4>
+            <p>Short Ones have all the standard halfling traits plus the following.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution increases by 1.</p>
+            <p class="indent"><strong><em>Short One Fortitude.</em></strong> You receive advantage on all savingthrows against poisons.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Short One)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <grant type="Racial Trait" id="ID_JHSB_ANC1_RACE_TRAIT_SHORT_ONE_FORTITUDE" />
+        </rules>
+    </element>
+
+    <element name="Short One Fortitude" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_TRAIT_SHORT_ONE_FORTITUDE">
+        <description>
+            <p>You receive advantage on all savingthrows against poisons.</p>
+        </description>
+        <sheet>
+            <description>You receive advantage on all savingthrows against poisons.</description>
+        </sheet>
+    </element>
+    
+</elements>

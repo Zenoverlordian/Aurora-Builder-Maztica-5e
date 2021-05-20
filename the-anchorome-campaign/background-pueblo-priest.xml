@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="background-pueblo-priest.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/background-pueblo-priest.xml" />
+        </update>
+    </info>
+    
+    <element name="Pueblo Priest" type="Background" source="The Anchorome Campaign" id="ID_JHSB_ANC1_BACKGROUND_PUEBLO_PRIEST">
+        <description>
+            <p>Like the Azuposi healer, the pueblo priest sees to the generalwelfare of each Azuposi settlement. However, where theAzuposi Healer sees to the physical needs, the pueblo priestsees to their spiritual needs.</p>
+            <p class="indent">In this way, they are much like the medicine men of theMinnenewah, but less mysterious and hermetical. The pueblopriest is a part of every major rite performed to honor thespirits, including festivals, rituals and holidays. They are oftenseen wearing the sacred vestments and covered in a variety ofcharms and talismans.</p>
+            <ul class="unstyled">
+                <li><strong>Skill Proficiencies:</strong> History, Religion </li>
+                <li><strong>Tool Proficiencies:</strong> Any one set of artisan's tools </li>
+                <li><strong>Languages:</strong> One of your choice </li>
+                <li><strong>Equipment:</strong> A set of normal clothes and a set of religiousvestments. Nonmagical charms and talismans. A set of theartisan's tools in which you are proficient and random chunksof turquoise worth 15 gp.</li>
+            </ul>
+            <div element="ID_JHSB_ANC1_BACKGROUND_FEATURE_TALISMANIC_KNOWLEDGE" />
+            <h5>SUGGESTED CHARACTERISTICS</h5>
+            <p>Pueblo priests have responsibilities to their people thatcannot be shirked. It is their responsibility to cater to thespirtual needs of the Azuposi and keep the spirits satisfiedwith their respective settlements</p>
+            <p class="indent">While it was once not the case, Masauwu decreed just overa century ago that the life of an adventurer is suitable for apueblo priest in order to stop threats like the demon-spiritwho once blocked the Sun Trail to Wenimats</p>
+        </description>
+        <setters>
+            <set name="short">History, Religion, 1 Tool, 1 Language</set>
+        </setters>
+        <rules>
+            <grant type="Background Feature" id="ID_JHSB_ANC1_BACKGROUND_FEATURE_TALISMANIC_KNOWLEDGE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+            <select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+            <select type="List" name="Personality Trait" number="2" optional="true">
+                <item id="1">I live for my people, particularly of my community,and everyone knows and loves me.</item>
+                <item id="2">I am a servant of the Spirit Realm and live only tointerpret their desires.</item>
+                <item id="3">I am aware that I am the liaison between the Spiritrealm and the mortal world. That is my duty.</item>
+                <item id="4">Since I was a child, I have lived for the variety offestivals. To this day, they still make me so happyand I hate to miss them.</item>
+                <item id="5">I fear that the Azuposi will grow soft once againwhich will greatly displease the Skeleton Man. I willnot allow this to happen.</item>
+                <item id="6">I long to be named Gilded Priest. I know that it ismy destiny.</item>
+                <item id="7">I am here to guide the people through anyhardships that may arise. It is my sacred duty</item>
+                <item id="8">I appreciate the great honor that my duties bringme, but I have a wanderlust that will not stay quiet</item>
+            </select>
+            <select type="List" name="Ideal" optional="true">
+                <item id="1">Kindness.I love smiles on the faces of my flock. It ismy duty to keep my people happy. (Good)</item>
+                <item id="2">Power. Every day I feel the pull of the darker spirits. Iknow I am treading the path of the Bent Priest.(Evil)</item>
+                <item id="3">Service.As a pueblo priest it is my duty to tend tothe spiritual needs of my people and that is one Isimply will not ignore. (Lawful)</item>
+                <item id="4">Fame. I enjoy the benefits and honors I am affordedas such an important member of my community.(Chaotic)</item>
+                <item id="5">Salvation.There is no more important duty thanassuring that mortal and spirit remain at peace. Thespirits are a fickle lot, but they have certain rules toobey. (Lawful)</item>
+                <item id="6">Culture. Without our festivals, rites and holidays weare diminished as a people. (Any)</item>
+            </select>
+            <select type="List" name="Bond" optional="true">
+                <item id="1">I shall never allow the Azuposi to grow weak as weonce did, and I will lead by example.</item>
+                <item id="2">I live for my community and long to keep mypeople safe from harm.</item>
+                <item id="3">There are threats from the Spirit Realm that noneneed know of. It is the duty of folk blessed as I amto hide such knowledge.</item>
+                <item id="4">I believe that we are too beholden to ancienttraditions that no longer have the same meaning.Our rites need updating.</item>
+                <item id="5">I fear that we were once abandoned by the spiritsand if we are not careful, it will happen again</item>
+                <item id="6">There is so much beauty to be seen in this realmand the next. I wish to see it all.</item>
+            </select>
+            <select type="List" name="Flaw" optional="true">
+                <item id="1">I've grown bored with my duties and laziness hassunk in.</item>
+                <item id="2">The young generation is distracted and knows notthe power of the Spirit Realm. I must teach them tobehave no matter how harsh I need to be</item>
+                <item id="3">I have suffered too many tragedies to continue tobelieve the spirits have our best interests in mind.</item>
+                <item id="4">I can make quite a bit of personal gain by using myposition among the Azuposi.</item>
+                <item id="5">I don't believe in what I do any longer. It is time forme to move on.</item>
+                <item id="6">I feel the incessant call of the darker spirits likeMa'we and Shakak.</item>
+            </select>
+        </rules>
+    </element>
+
+    <element name="Feature: Talismanic Knowledge" type="Background Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_BACKGROUND_FEATURE_TALISMANIC_KNOWLEDGE">
+        <description>
+            <p>While the background itself does not give the pueblo priestaccess to talismanic magic (needing the feat or a class featureto do so), the pueblo priest is well versed in their magicalabilities. A pueblo priest can identify and determine the exactspecial properties of a talisman that they come across bymaking a DC 13 Intelligence (Religion) or DC 13 Intelligence(History) check.</p>
+        </description>
+        <sheet alt="Talismanic Knowledge">
+            <description>While the background itself does not give the pueblo priestaccess to talismanic magic (needing the feat or a class featureto do so), the pueblo priest is well versed in their magicalabilities. A pueblo priest can identify and determine the exactspecial properties of a talisman that they come across bymaking a DC 13 Intelligence (Religion) or DC 13 Intelligence(History) check.</description>
+        </sheet>
+    </element>
+    
+</elements>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="half-elf-pagunki.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/half-elf-pagunki.xml" />
+        </update>
+    </info>
+    
+    <element name="Pagunki" type="Race Variant" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_PAGUNKI">
+		<supports>Half-Elf Variant</supports>
+		<description>
+			<p>Pagunki are the offspring of Minnenewah and the Poscadarielf. This union is not common, but does occur where tribes ofeach people meet near the Adusgi Forest.</p>
+            <p class="indent">Pagunki are frequently treated like outcasts among both theMinnenewah and the Poscadari. Typically, they leave theirrespective tribes the moment they are able and many headtowards the fabled portion of the Adusgi Forest also known asPagunki. Here a community exists where the half breeds canbe with others of their kind.</p>
+            <p class="indent">Pagunki don't always remain in the forest and manycontinue to seek adventure and travel beyond what theyconsider the small minded nature of their parents' people.Some feel it necessary to prove themselves worthy, and theyare known to be considered either very brave, or very stupid.</p>
+            <p class="indent">Pagunki half-elves have all the traits of half-elves found inthe Player's Handbook but some variations are possibledepending on which parent the pagunki's ancestry favors. Seethe "Pagunki Variants" sidebar for other options.</p>
+            <div element="ID_JHSB_ANC1_RACE_TRAIT_POSCADARI_PLAINS_CAMOUFLAGE" />
+			<div element="ID_JHSB_ANC1_RACE_TRAIT_POSCADARI_SURVIVALIST" />
+			<div element="ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_WISDOM" />
+			<div element="ID_JHSB_ANC1_RACE_PAGUNKI_WEAPONS_TRAINING" />
+		</description>
+		<sheet alt="Half-Elf (Pagunki)" display="false" />
+		<rules>
+			<grant type="Grants" id="ID_WOTC_SCAG_GRANTS_VARIANT_HALF_ELF" />
+			<select type="Racial Trait" name="Racial Trait, Pagunki" supports="ID_JHSB_ANC1_RACE_TRAIT_POSCADARI_PLAINS_CAMOUFLAGE|ID_JHSB_ANC1_RACE_TRAIT_POSCADARI_SURVIVALIST|ID_JHSB_ANC1_RACE_TRAIT_MINNENEWAH_WISDOM|ID_JHSB_ANC1_RACE_PAGUNKI_WEAPONS_TRAINING" />
+		</rules>
+	</element>
+
+    <element name="Elf Weapon Training" type="Racial Trait" source="The Anchorome Campaign" id="ID_JHSB_ANC1_RACE_PAGUNKI_WEAPONS_TRAINING">
+        <description>
+            <p>You have proficiency with theshortbow, longbow and tomahawk.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TOMAHAWK" />
+        </rules>
+    </element>
+    
+</elements>

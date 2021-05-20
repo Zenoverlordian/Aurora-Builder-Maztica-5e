@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="monk-neheyawak.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/monk-neheyawak.xml" />
+        </update>
+    </info>
+    
+    <element name="Way of the Neheyawak" type="Archetype" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_NEHEYAWAK">
+        <supports>Monastic Tradition</supports>
+        <description>
+            <p>Okichitaw is an ancient technique among the Minnenewah which relies heavily on the use of the tomahawk, a long knife (dagger) or a weapon known as the nontoni towin mistik</p>
+            <p class="indent">The nontoni towin mistik is essentially a curved and bladedclub whose statistics can be found in Chapter 5.</p>
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_DISARMING_STRIKE" />
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_TWO_BLADED_OKICHITAWAK" />
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_SILENT_MANEUVER" />
+            <div element="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_HOLDING_MANEUVER" />
+        </description>
+        <sheet display="false">
+            <description>Okichitaw is an ancient technique among the Minnenewah which relies heavily on the use of the tomahawk, a long knife (dagger) or a weapon known as the nontoni towin mistik</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_DISARMING_STRIKE" level="3" />
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_TWO_BLADED_OKICHITAWAK" level="6" />
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_SILENT_MANEUVER" level="11" />
+            <grant type="Archetype Feature" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_HOLDING_MANEUVER" level="17" />
+        </rules>
+    </element>
+
+    <element name="Disarming Strike" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_DISARMING_STRIKE">
+        <description>
+            <p>Starting when you choose this tradition at 3rd level, you canknock a weapon out of your opponents hands. Whenever youhit a creature with one of the attacks granted to you by yourFlurry of Blows and you are wielding a tomahawk, dagger ornontoni towin mistik, your opponent will drop one item that itis holding of your choice. The item drops at their feet.</p>
+        </description>
+        <sheet>
+            <description>Whenever you hit a creature with one of the attacks granted to you by your Flurry of Blows and you are wielding a tomahawk, dagger or nontoni towin mistik, your opponent will drop one item that itis holding of your choice. The item drops at their feet.</description>
+        </sheet>
+    </element>
+
+    <element name="Two Bladed Okichitawak" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_TWO_BLADED_OKICHITAWAK">
+        <description>
+            <p>Starting at 6th level, you may arm yourself with two weapons. These pairs of weapons may only include either twotomahawks, a tomahawk and dagger, two nontoni towinmistiks or a nontoni towin mistik and a dagger. When youmake a Flurry of Blows, you may use one of the weapons tomake your two extra strikes instead of using an unarmedattack.</p>
+            <p class="indent">Also when using your Flurry of Blows, your weapons countas a magical attack.</p>
+        </description>
+        <sheet>
+            <description>You may arm yourself with two weapons. These pairs of weapons may only include either two tomahawks, a tomahawk and dagger, two nontoni towin mistiks or a nontoni towin mistik and a dagger. When you make a Flurry of Blows, you may use one of the weapons to make your two extra strikes instead of using an unarmed attack.
+            Also when using your Flurry of Blows, your weapons countas a magical attack.</description>
+        </sheet>
+    </element>
+
+    <element name="Silent Maneuver" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_SILENT_MANEUVER">
+        <description>
+            <p>At 11th level, if you are wielding the pairings of weaponsidentified in the Two Bladed Okichitawak feature, you mayspend an action and 2 ki points to strike your weaponstogether creating a zone of silence as the spell in a 20 footradius centered upon yourself with a duration of one minute</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_SILENCE" /> 
+            </div>
+        </description>
+        <sheet>
+            <description action="Action" usage="Ki">If you are wielding the pairings of weapons identified in the Two Bladed Okichitawak feature, you may spend an action and 2 ki points to strike your weapons together creating a zone of silence as the spell in a 20 foot radius centered upon yourself with a duration of one minute</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SILENCE" />
+        </rules>
+    </element>
+
+    <element name="Holding Maneuver" type="Archetype Feature" source="The Anchorome Campaign" id="ID_JHSB_ANC1_ARCHETYPE_FEATURE_NEHEYAWAK_HOLDING_MANEUVER">
+        <description>
+            <p>At 17th level, using 6 ki points you may cast hold monster as a5th level spell without need for material components. You mayalso increase the level of the spell at an additional cost of 1 kipoint per level of the spell above 5th.</p>
+            <p class="indent">In order to use this ability, you must be wielding one of thepairings of weapons identified in the Two Bladed Okichitawakfeature, both of which you point in the direction of your targetcreature</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_HOLD_MONSTER" /> 
+            </div>
+        </description>
+        <sheet>
+            <description>Using 6 ki points you may cast hold monster as a 5th level spell without need for material components. You may also increase the level of the spell at an additional cost of 1 ki point per level of the spell above 5th.
+            In order to use this ability, you must be wielding one of the pairings of weapons identified in the Two Bladed Okichitawak feature, both of which you point in the direction of your target creature</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" />
+        </rules>
+    </element>
+    
+</elements>
