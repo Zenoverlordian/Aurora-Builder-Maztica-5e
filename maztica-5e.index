@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="maztica-5e.index" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/maztica-5e.index" />
 		</update>
 	</info>
 	<files>
-  
+  		<file name="the-anchorome-campaign.index" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign.index" />
 	</files>
 </index>
