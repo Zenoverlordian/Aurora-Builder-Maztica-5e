@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<update version="0.0.1">
+			<file name="the-anchorome-campaign.index" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign.index" />
+		</update>
+	</info>
+	<files>
+    <file name="background-azuposi-healer.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/background-azuposi-healer.xml" />
+    <file name="warlock-animist.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/warlock-animist.xml" />
+    <file name="spells.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/spells.xml" />
+    <file name="race-minnenewah.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/race-alaghi-minnenewah.xml" />
+    <file name="race-alaghi-runt.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/race-alaghi-runt.xml" />
+    <file name="monk-neheyawak.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/monk-neheyawak.xml" />
+    <file name="items-magic.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/items-magic.xml" />
+    <file name="items-gear.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/items-gear.xml" />
+    <file name="halfling-short-one.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/halfling-short-one.xml" />
+    <file name="half-elf-pagunki.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/half-elf-pagunki.xml" />
+    <file name="elf-poscadari.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/elf-poscadari.xml" />
+    <file name="dwarf-desert.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/dwarf-desert.xml" />
+    <file name="dragonborn-variant.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/dragonborn-variant.xml" />
+    <file name="bard-koyemshi.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/bard-koyemshi.xml" />
+    <file name="barbarian-totem.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/barbarian-totem.xml" />
+    <file name="background-pueblo-priest.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/background-pueblo-priest.xml" />
+    <file name="background-medicine-man.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/background-medicine-man.xml" />
+    <file name="source.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-anchorome-campaign/source.xml" />
+	</files>
+</index>
