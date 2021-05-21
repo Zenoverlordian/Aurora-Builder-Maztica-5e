@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="race-darfellan.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-orca-folk/race-darfellan.xml" />
+        </update>
+    </info>
+    
+    <element name="Darfellan" type="Race" source="The Orca Folk" id="ID_JHNW_ANM3_RACE_DARFELLAN">
+        <description>
+            <p>A typical darfellan has a hulking, muscular build with abroad back, powerful arms, and a wide neck and head. Adarfellan stands not much over 6 feet tall and weighs nearly200 pounds.</p>
+            <p class="indent">A darfellan’s most striking feature is their jetblack or gray-blue skin, glossy and hairless, broken by varied whitemarkings. The size, shape, and location of the white areasdistinguish clan affiliation and quickly identify an individual’sallegiance to other darfellans. From time to time individualsare born who are entirely black or, much more rarely, entirelywhite. These births are always seen as portentous, and thechildren are destined to hold positions of importance amongthe darfellan. The appearance of an entirely white darfellanis taken as a portent of great events, and the darfellan’s history is filled with stories of the upheavals that followed these births.</p>
+            <h4>Darfellan Traits</h4>
+            <p>As a Darfellan, you have the following traits:</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Constitution score increases by 1. </p>
+            <p class="indent"><strong><em>Age.</em></strong> Darfellan reach adulthood at age 18 and live up to 90years. </p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Darfellan live in small coastal settlements thatrely on caste systems. They tend to be neutral. </p>
+            <p class="indent"><strong><em>Size.</em></strong> Darfellan stand between 5 to 6 feet tall, weighingbetween 150 to 200 pounds. Your size is Medium. </p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your speed is 30 ft. and your swim speed is 30 ft. </p>
+            <p class="indent"><strong><em>Hold Breath.</em></strong> You can hold your breath for up to 30 minutes underwater. </p>
+            <p class="indent"><strong><em>Echolocation.</em></strong> You have a blindsense radius of 10 ft. aslong as you are not deafened. The radius is tripled when underwater. </p>
+            <p class="indent"><strong><em>Orca Bite.</em></strong> Your toothy maw is a natural weapon which youare proficient with and can use to make unarmed strikes. If you hit with the bite attack, you deal piercing damage equalto 1d4 + your Strength modifier. </p>
+            <p class="indent"><strong><em>Inner Fury.</em></strong> When you damage a creature with a melee attack, you can deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can not use it again until you complete a long rest. </p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak and write Aquan and Common.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Darfellan)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Darfellan)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<grant type="Language" id="ID_LANGUAGE_AQUAN" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <grant type="Racial Trait" id="ID_JHNW_ANM3_RACE_TRAIT_DARFELLAN_HOLD_BREATH" />
+            <grant type="Racial Trait" id="ID_JHNW_ANM3_RACE_TRAIT_DARFELLAN_ECHOLOCATION" />
+            <grant type="Racial Trait" id="ID_JHNW_ANM3_RACE_TRAIT_DARFELLAN_ORCA_BITE" />
+            <grant type="Racial Trait" id="ID_JHNW_ANM3_RACE_TRAIT_DARFELLAN_INNER_FURY" />
+        </rules>
+    </element>
+
+    <element name="Hold Breath" type="Racial Trait" source="The Orca Folk" id="ID_JHNW_ANM3_RACE_TRAIT_DARFELLAN_HOLD_BREATH">
+        <description>
+            <p>You can hold your breath for up to 30 minutes underwater.</p>
+        </description>
+        <sheet>
+            <description>You can hold your breath for up to 30 minutes underwater.</description>
+        </sheet>
+    </element>
+
+    <element name="Echolocation" type="Racial Trait" source="The Orca Folk" id="ID_JHNW_ANM3_RACE_TRAIT_DARFELLAN_ECHOLOCATION">
+        <description>
+            <p>You have a blindsense radius of 10 ft. as long as you are not deafened. The radius is tripled when underwater.</p>
+        </description>
+        <sheet>
+            <description>You have a blindsense radius of 10 ft. as long as you are not deafened. The radius is tripled when underwater.</description>
+        </sheet>
+    </element>
+
+    <element name="Orca Bite" type="Racial Trait" source="The Orca Folk" id="ID_JHNW_ANM3_RACE_TRAIT_DARFELLAN_ORCA_BITE">
+        <description>
+            <p>Your toothy maw is a natural weapon which youare proficient with and can use to make unarmed strikes. If you hit with the bite attack, you deal piercing damage equalto 1d4 + your Strength modifier.</p>
+        </description>
+        <sheet>
+            <description>Your toothy maw is a natural weapon which youare proficient with and can use to make unarmed strikes. If you hit with the bite attack, you deal piercing damage equalto 1d4 + {{strength:modifier}}.</description>
+        </sheet>
+    </element>
+
+    <element name="Inner Fury" type="Racial Trait" source="The Orca Folk" id="ID_JHNW_ANM3_RACE_TRAIT_DARFELLAN_INNER_FURY">
+        <description>
+            <p>When you damage a creature with a melee attack, you can deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can not use it again until you complete a long rest.</p>
+        </description>
+        <sheet>
+            <description usage="1/Long Rest">When you damage a creature with a melee attack, you can deal an extra {{level}} damage to the creature.</description>
+        </sheet>
+    </element>
+    
+</elements>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="source.xml" url="https://raw.githubusercontent.com/Zenoverlordian/Aurora-Builder-Maztica-5e/main/the-orca-folk/source.xml" />
+        </update>
+    </info>
+    
+    <element name="The Orca Folk" type="Source" source="The Orca Folk" id="ID_JHNW_ANM3_SOURCE_THE_ORCA_FOLK">
+        <description>
+            <![CDATA[<p>Once hunted to near extinction, the orca folk, who refer to themselves as the darfellan, are making a comeback.  Their traditional enemies are undoubtedly the sahuagin, but now that they have come into closer contact with the human societies of their new homes, a civil war could be brewing within the remaining clans.</p>
+            <p>Does Yeathan, the Dweller in the Dark Depths get to control the fate of the darfellan?  If this dark lord (who many believe to be an aspect of Umberlee) gets his way, war with the people of the Pasocada Basin known as the Metahel would be the only way.   </p>
+            <p>Perhaps, as the old ones would have it, they see to the peaceful ways of the Whale Mother instead and forge a lasting truce? </p>
+            <p>Could the sighting of the pale white darfellan be a sign of major things to come?</p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">ANM3</set>
+            <set name="url">https://www.dmsguild.com/product/289624/ANM3-The-Orca-Folk</set>
+            <set name="image">https://dtrpg-public-files.s3.us-east-2.amazonaws.com/images/8957/289624.png</set>
+            <set name="author" abbreviation="JHNW" url="https://www.dmsguild.com/browse.php?author=Nathan%20Wormer">Jon Hild, Nathan Wormer</set>
+            <set name="official">false</set>
+            <set name="supplement">false</set>
+            <set name="playtest">false</set>
+            <set name="third-party">true</set>
+            <set name="homebrew">false</set>
+            <set name="league">false</set>
+            <set name="release">20200118</set>
+        </setters>
+    </element>
+    
+</elements>
